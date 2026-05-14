@@ -1,0 +1,9 @@
+*.pdf
+*.docx
+*.xlsx
+*.bom.ps1
+*-bom.ps1
+test-*.pdf
+__pycache__/
+.DS_Store
+Thumbs.db
