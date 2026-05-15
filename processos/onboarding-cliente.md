@@ -1,75 +1,131 @@
-﻿# ONBOARDING DE CLIENTE — LUMMÉ
+# ONBOARDING DE CLIENTE — LUMMÉ
+## Template Operacional Completo
 
-**Objetivo:** Garantir que cada novo cliente da Lummé inicie a parceria com clareza, confiança e alinhamento total — do contrato à primeira entrega.
+**Versão:** 2.0 | **Data:** Maio 2026 | **Responsável:** Quellem
 
 ---
 
-## VISÃO GERAL DO PROCESSO
+## VISÃO GERAL DO FLUXO
 
 ```
-[Proposta aprovada]
+[Proposta aprovada verbalmente]
         ↓
-[Contrato assinado + Pagamento]
+[Contrato enviado + 1ª mensalidade]
         ↓
-[Envio do Kit de Boas-Vindas]
+[Contrato assinado + Pagamento confirmado]
         ↓
-[Preenchimento do Briefing]
+[Kit de Boas-Vindas enviado] ← 24h
         ↓
-[Reunião de Kickoff]
+[Briefing enviado ao cliente]
         ↓
-[Coleta de Acessos]
+[Briefing recebido e revisado] ← até 3 dias úteis do cliente
         ↓
-[Planejamento do mês 1]
+[Reunião de Kickoff agendada e realizada] ← 5 dias após briefing
+        ↓
+[Acessos coletados] ← 2 dias após kickoff
+        ↓
+[Diagnóstico inicial produzido]
+        ↓
+[Calendário editorial mês 1 enviado para aprovação]
+        ↓
+[Aprovação do cliente] ← 48h
         ↓
 [Início das entregas]
 ```
+
+**Prazo total do onboarding:** 14–21 dias úteis
 
 ---
 
 ## ETAPA 1 — CONTRATO E PAGAMENTO
 
 **Responsável:** Quellem
-**Prazo:** Até 24h após aprovação verbal da proposta
+**Prazo:** Até 24h após aprovação verbal
 
-**Ações:**
-- [ ] Enviar contrato personalizado via e-mail (PDF para assinatura digital ou física)
-- [ ] Aguardar assinatura e pagamento da primeira mensalidade
-- [ ] Confirmar recebimento do pagamento
-- [ ] Emitir nota fiscal ou recibo (se solicitado)
+### Checklist
 
-**Ferramenta:** DocuSign (assinatura digital) ou PDF assinado com foto
+- [ ] Personalizar contrato com: nome do cliente, serviços, valor, prazo de vigência
+- [ ] Enviar contrato em PDF por e-mail com assunto padrão (ver abaixo)
+- [ ] Enviar chave Pix / dados bancários para primeira mensalidade
+- [ ] Aguardar assinatura + comprovante de pagamento
+- [ ] Confirmar recebimento por e-mail
+- [ ] Emitir NF (se Simples Nacional) ou recibo formal
+- [ ] Criar pasta do cliente no sistema de arquivos / Notion
+- [ ] Inserir cliente no CRM com status "Contrato assinado"
+
+### E-mail de Envio do Contrato
+
+```
+Assunto: Contrato Lummé × [Nome do Cliente] — Para assinatura
+
+Olá, [Nome]!
+
+Conforme alinhado, segue o contrato de prestação de serviços da Lummé.
+
+Para formalizar nossa parceria, peço que:
+1. Leia o contrato com atenção
+2. Assine (pode ser física com foto ou digital)
+3. Retorne assinado para este e-mail
+4. Realize o pagamento da 1ª mensalidade: R$ [valor]
+   Pix: [chave]
+
+Assim que confirmar o pagamento, enviarei o próximo passo.
+
+Qualquer dúvida, estou disponível.
+
+Quellem | Lummé
+(27) 99884-5482
+```
 
 ---
 
 ## ETAPA 2 — KIT DE BOAS-VINDAS
 
 **Responsável:** Quellem
-**Prazo:** Até 24h após assinatura + pagamento
+**Prazo:** Até 24h após contrato assinado + pagamento
 
-**O que enviar (via e-mail e/ou WhatsApp):**
+### O que compõe o Kit
+
+| Item | Formato | Canal |
+|------|---------|-------|
+| E-mail de boas-vindas | Texto | E-mail |
+| PDF de boas-vindas Lummé | PDF | E-mail |
+| Link do briefing | Google Forms ou Notion | E-mail + WhatsApp |
+| Apresentação do fluxo de trabalho | PDF ou link | E-mail |
+
+### E-mail do Kit de Boas-Vindas
 
 ```
-Assunto: Bem-vindo(a) à Lummé — Próximos passos da nossa parceria
+Assunto: Bem-vindo(a) à Lummé — Sua parceria começa agora
 
 Olá, [Nome]!
 
-É oficial — a parceria Lummé está no ar! 
+É oficial. A parceria Lummé está no ar.
 
-Aqui estão os próximos passos:
+Obrigada pela confiança. Vamos fazer um trabalho que você vai se orgulhar
+de mostrar.
 
-1. Preencha o briefing no link abaixo (leva ~15 min):
-   [Link do formulário ou documento]
+PRÓXIMOS PASSOS:
 
-2. Após o briefing, entraremos em contato para agendar 
-   nosso kickoff (reunião de início).
+① Briefing (15–20 minutos)
+Preencha o formulário abaixo para que eu entenda seu negócio em profundidade.
+→ [Link do briefing]
+Prazo: até [data — 3 dias úteis]
 
-3. A primeira entrega acontece em até [prazo] após o kickoff.
+② Kickoff
+Após receber o briefing, entramos em contato para agendar nossa reunião de
+início (60–90 min). Nela definimos metas, KPIs e o plano do primeiro mês.
 
-Qualquer dúvida, estou aqui:
-WhatsApp: (27) 99884-5482
-E-mail: contato@lumme.com.br
+③ Início das entregas
+A primeira entrega acontece em até [X dias] após o kickoff.
 
-Que venha o fluxo!
+COMUNICAÇÃO DURANTE A PARCERIA:
+· WhatsApp: (27) 99884-5482 — aprovações rápidas e dúvidas do dia a dia
+· E-mail: contato@lumme.com.br — documentos e relatórios
+· Horário de atendimento: Segunda a sexta, 9h–18h
+
+Que venha o fluxo.
+
 Quellem | Lummé
 ```
 
@@ -77,97 +133,197 @@ Quellem | Lummé
 
 ## ETAPA 3 — BRIEFING
 
-**Responsável:** Cliente (com suporte da Quellem)
-**Prazo:** Cliente preenche em até 3 dias úteis
+**Responsável:** Cliente (suporte Quellem se necessário)
+**Prazo do cliente:** Até 3 dias úteis
+**Arquivo:** `templates/briefing-cliente.md`
 
-**Ações da Lummé:**
-- [ ] Enviar link do briefing (ver `/templates/briefing-cliente.md`)
-- [ ] Fazer follow-up após 48h se não receber
-- [ ] Revisar briefing assim que recebido — anotar dúvidas para o kickoff
-- [ ] Criar pasta do cliente no Notion com informações do briefing
+### Acompanhamento
+
+| Dia | Ação |
+|-----|------|
+| Dia 0 | Envio do link do briefing |
+| Dia 2 | Follow-up por WhatsApp se não recebeu |
+| Dia 3 | E-mail formal de lembrete |
+| Dia 4 | Ligar e oferecer preenchimento por telefone |
+| Dia 5 | Registrar no CRM como "atraso no onboarding" |
+
+### Follow-up WhatsApp (Dia 2)
+
+```
+Olá, [Nome]! Quellem aqui da Lummé.
+
+Passou alguma coisa com o briefing? Caso precise de ajuda para preencher
+ou prefira fazemos juntos por vídeo, é só me avisar.
+
+O formulário fica disponível até [data]. Assim que receber, já começo a
+preparar o kickoff.
+```
+
+### O que revisar ao receber o briefing
+
+- [ ] Dados da empresa completos
+- [ ] Público-alvo descrito com clareza
+- [ ] Concorrentes identificados
+- [ ] Objetivos mensuráveis informados
+- [ ] Orçamento disponível declarado
+- [ ] Acessos necessários listados
+- [ ] Anotar dúvidas para o kickoff
+- [ ] Inserir resumo no Notion/CRM
 
 ---
 
 ## ETAPA 4 — REUNIÃO DE KICKOFF
 
 **Responsável:** Quellem
-**Prazo:** Até 5 dias após recebimento do briefing
+**Prazo:** Até 5 dias úteis após recebimento do briefing
 **Duração:** 60–90 minutos
-**Formato:** Videoconferência ou presencial
+**Formato:** Videoconferência (Google Meet / Zoom) ou presencial
 
-**Pauta do Kickoff:**
+### O que preparar antes do kickoff
+
+- [ ] Resumo do briefing lido e estudado
+- [ ] Diagnóstico inicial (mesmo que rascunho)
+- [ ] Proposta de 3–5 temas para o primeiro mês de conteúdo
+- [ ] Calendário de entregas do mês 1 em rascunho
+- [ ] Perguntas específicas sobre o negócio
+- [ ] Apresentação visual da Lummé (metodologia, processo, SLA)
+
+### Pauta do Kickoff
 
 | Item | Tempo |
 |------|-------|
-| Apresentação da equipe e da metodologia Lummé | 10 min |
-| Revisão do briefing e alinhamento de expectativas | 20 min |
+| Boas-vindas e apresentação da metodologia Lummé | 10 min |
+| Revisão do briefing — validação e aprofundamento | 20 min |
 | Definição de KPIs e metas do trimestre | 15 min |
-| Calendário de entregas do primeiro mês | 10 min |
+| Apresentação do calendário do mês 1 (rascunho) | 10 min |
 | Coleta de acessos necessários | 10 min |
 | Esclarecimento de dúvidas | 15 min |
 
-**O que levar preparado para o kickoff:**
-- Diagnóstico inicial baseado no briefing
-- Proposta de temas para o primeiro mês de conteúdo
-- Perguntas específicas sobre o negócio do cliente
+### Ata de Kickoff (preencher durante/após)
+
+```
+Data: ___________
+Cliente: ___________
+Participantes: ___________
+
+KPIs definidos:
+· ___________
+· ___________
+
+Meta trimestral:
+· ___________
+
+Acessos a coletar:
+· ___________
+
+Primeira entrega prevista: ___________
+Próxima reunião: ___________
+
+Observações: ___________
+```
 
 ---
 
 ## ETAPA 5 — COLETA DE ACESSOS
 
 **Responsável:** Quellem
-**Prazo:** Até 2 dias após o kickoff
+**Prazo:** Até 2 dias úteis após kickoff
 
-**Checklist de acessos por tipo de serviço:**
+### Checklist por Tipo de Serviço
 
-### Gestão de Mídias Sociais
-- [ ] Acesso administrador do Instagram via Meta Business Suite
-- [ ] Acesso à página do Facebook (se houver)
-- [ ] Login do Canva da empresa (se houver)
-- [ ] Acesso ao Google Meu Negócio (se aplicável)
+**Gestão de Mídias Sociais**
+- [ ] Instagram Business — acesso administrador via Meta Business Suite
+- [ ] Página do Facebook (se houver)
+- [ ] Canva da empresa (se houver)
+- [ ] Google Meu Negócio (se aplicável)
+- [ ] Banco de fotos/vídeos da empresa
 
-### Tráfego Pago
-- [ ] Acesso ao gerenciador de anúncios (Meta Ads Manager)
-- [ ] Acesso ao Google Ads (se Google)
-- [ ] Pixel do Facebook instalado no site (verificar)
-- [ ] Conta de cobrança configurada pelo cliente
+**Tráfego Pago**
+- [ ] Meta Ads Manager — acesso de anunciante
+- [ ] Pixel do Facebook verificado no site
+- [ ] Google Ads (se aplicável)
+- [ ] Conta de cobrança configurada pelo cliente (verba paga por ele)
 
-### Branding e Design
-- [ ] Arquivos da identidade visual atual (logo, guia, fontes)
-- [ ] Banco de fotos/imagens da empresa
-- [ ] Acesso ao site (se for atualizar)
+**Branding e Design**
+- [ ] Arquivos da identidade visual atual (logo em vetor, guia de marca)
+- [ ] Fontes utilizadas pela marca
+- [ ] Banco de fotos aprovadas
 
-**Como receber acessos com segurança:**
-- Via Notion (nota compartilhada) ou LastPass
-- Nunca por WhatsApp direto ou e-mail sem criptografia (para senhas)
-- Pedir acesso de colaborador, nunca a senha do dono
+**Site e SEO**
+- [ ] Acesso ao painel do site (WordPress/Wix/Squarespace)
+- [ ] Google Search Console
+- [ ] Google Analytics
+
+### Protocolo de Segurança para Acessos
+
+- Nunca solicitar senha por WhatsApp ou e-mail aberto
+- Solicitar acesso de colaborador — nunca a conta do proprietário
+- Armazenar acessos no Notion (nota criptografada) ou LastPass
+- Registrar todos os acessos recebidos com data no CRM
+
+### Mensagem de Solicitação de Acessos
+
+```
+Olá, [Nome]!
+
+Para iniciarmos as entregas, preciso dos seguintes acessos:
+
+[Listar os acessos necessários]
+
+Para o Instagram: vá em Configurações → Meta Business Suite →
+Usuários → Adicionar → [e-mail@lumme.com.br] → Papel: Admin.
+
+Qualquer dificuldade, fazemos juntos por vídeo.
+
+Prazo para envio: [data — 2 dias úteis].
+```
 
 ---
 
-## ETAPA 6 — PLANEJAMENTO DO MÊS 1
+## ETAPA 6 — DIAGNÓSTICO E PLANEJAMENTO MÊS 1
 
 **Responsável:** Quellem
 **Prazo:** Até 7 dias após o kickoff
-**Entregável:** Calendário editorial do mês 1 + temas aprovados
 
-**Ações:**
-- [ ] Montar calendário editorial completo do mês 1 (datas + temas + formatos)
-- [ ] Enviar para aprovação do cliente (prazo de 48h para revisão)
-- [ ] Confirmar aprovação antes de iniciar produção
-- [ ] Inserir no Notion como registro oficial
+### Entregas desta etapa
+
+- [ ] Diagnóstico de Presença Digital (ver template no `dossie/`)
+- [ ] Calendário editorial do mês 1 completo (datas + temas + formatos + copys)
+- [ ] Envio para aprovação do cliente — prazo de aprovação: 48h
+
+### E-mail de Envio do Planejamento
+
+```
+Assunto: Lummé × [Nome] — Planejamento do primeiro mês
+
+Olá, [Nome]!
+
+Segue o planejamento estratégico do nosso primeiro mês juntos:
+
+📋 Diagnóstico de Presença Digital → [anexo]
+📅 Calendário editorial — [Mês] → [link ou anexo]
+
+Peço que revise e retorne com aprovação ou ajustes em até 48 horas.
+Assim que aprovado, iniciamos a produção.
+
+Em caso de dúvidas, estou disponível pelo WhatsApp.
+
+Quellem | Lummé
+```
 
 ---
 
 ## ETAPA 7 — INÍCIO DAS ENTREGAS
 
 **Responsável:** Quellem
-**Prazo:** Conforme calendário aprovado
+**Marco:** Calendário aprovado pelo cliente
 
-**Marcos da primeira semana de entregas:**
-- [ ] Primeira peça enviada para aprovação
-- [ ] Primeiro feedback coletado
-- [ ] Ajuste da comunicação se necessário
-- [ ] Check-in rápido com o cliente (15 min) após a primeira semana
+### Primeiros 7 dias de entregas
+
+- [ ] Primeira peça enviada para aprovação com antecedência mínima de 3 dias
+- [ ] Feedback coletado e ajuste realizado em 24h
+- [ ] Check-in rápido com o cliente após a primeira semana (15 min)
+- [ ] Registro de satisfação no CRM
 
 ---
 
@@ -175,37 +331,67 @@ Quellem | Lummé
 
 | Canal | Uso | Tempo de resposta |
 |-------|-----|------------------|
-| **WhatsApp** | Dia a dia, aprovações rápidas, dúvidas urgentes | Até 4h (dias úteis) |
-| **E-mail** | Documentos formais, relatórios, contratos | Até 24h |
-| **Reunião** | Alinhamento estratégico, kickoff, revisão mensal | Agendada com antecedência |
+| **WhatsApp** | Aprovações rápidas, dúvidas, urgências | Até 4h (dias úteis, 9h–18h) |
+| **E-mail** | Documentos, relatórios, contratos, formalidades | Até 24h |
+| **Reunião mensal** | Resultados, alinhamento estratégico, próximo mês | Agendada até o dia 10 |
 | **Notion** | Calendário, entregas, histórico de aprovações | Atualizado a cada entrega |
 
 **Horário de atendimento:** Segunda a sexta, 9h–18h
-**Urgências:** Via WhatsApp com marcação "URGENTE"
+**Urgências reais:** WhatsApp com prefixo "URGENTE:"
 
 ---
 
 ## INDICADORES DE ONBOARDING BEM-SUCEDIDO
 
-- [ ] Cliente preencheu o briefing com qualidade e completude
-- [ ] Kickoff realizado dentro do prazo
-- [ ] Acessos coletados sem fricção
-- [ ] Calendário do mês 1 aprovado pelo cliente
-- [ ] Cliente demonstrou engajamento e entendeu o processo
-- [ ] NPS de onboarding (0–10): meta 9+
+| Indicador | Meta |
+|-----------|------|
+| Briefing recebido no prazo | ≤ 3 dias úteis |
+| Kickoff realizado | ≤ 5 dias após briefing |
+| Acessos coletados | ≤ 2 dias após kickoff |
+| Calendário aprovado | ≤ 2 dias após envio |
+| NPS de onboarding | ≥ 9/10 |
+| Primeira entrega no prazo | 100% |
 
 ---
 
-## PROBLEMAS COMUNS E COMO RESOLVER
+## PROBLEMAS COMUNS E RESOLUÇÕES
 
 | Problema | Solução |
 |----------|---------|
-| Cliente demora para preencher o briefing | Follow-up após 48h + oferecer preenchimento por telefone |
-| Cliente não consegue dar acesso ao Instagram | Tutorial em vídeo (Loom) + suporte no WhatsApp |
-| Cliente quer alterar o escopo na última hora | Retornar à proposta original + abrir adendo se for expansão |
-| Cliente pede entrega antes do prazo combinado | Explicar o processo e manter o SLA — urgência gera qualidade baixa |
-| Cliente some após o kickoff | E-mail formal + WhatsApp + aguardar 5 dias antes de escalar |
+| Cliente demora para preencher o briefing | Follow-up dia 2 + oferta de preenchimento por vídeo |
+| Não consegue dar acesso ao Instagram | Tutorial em vídeo (Loom) + suporte ao vivo |
+| Quer alterar escopo no onboarding | Voltar à proposta + abrir adendo contratual se for expansão |
+| Pede entrega antes do prazo | Explicar o SLA — qualidade não negocia prazo |
+| Some após o kickoff | E-mail formal + WhatsApp + 5 dias → escalar para ligação |
+| Atraso no pagamento | Lembrete automático D-2 + pausa de entregas após 5 dias úteis |
 
 ---
 
-*Lummé · Maio 2026 · Processo interno*
+## PASTA DO CLIENTE — ESTRUTURA PADRÃO
+
+```
+/Clientes/[Nome do Cliente]/
+    ├── 01_Contrato/
+    │   └── contrato-[nome]-[data].pdf
+    ├── 02_Briefing/
+    │   └── briefing-[nome]-preenchido.pdf
+    ├── 03_Ata_Kickoff/
+    │   └── ata-kickoff-[data].md
+    ├── 04_Diagnostico/
+    │   └── diagnostico-[nome]-[mes].pdf
+    ├── 05_Planejamento/
+    │   └── calendario-[nome]-[mes].xlsx
+    ├── 06_Entregas/
+    │   ├── mes-01/
+    │   ├── mes-02/
+    │   └── mes-03/
+    ├── 07_Relatorios/
+    │   └── relatorio-[nome]-[mes].pdf
+    └── 08_Acessos/
+        └── acessos-[nome].md (criptografado)
+```
+
+---
+
+*Lummé · Onboarding de Cliente v2.0 · Maio 2026*
+*Cada detalhe importa.*
