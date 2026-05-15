@@ -10,12 +10,15 @@ import os
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ── Paleta Lummé ──────────────────────────────────────────────────────────────
-ROXO       = "#7B3F6E"   # primária
-DOURADO    = "#C09850"   # acento
-CHAMPAGNE  = "#F2E8D5"   # fundo neutro
-ROXO_CLARO = "#E8D6E4"   # tabelas alternadas
-CINZA_ESC  = "#2C2C2C"   # texto principal
-CINZA_MED  = "#6B6B6B"   # texto secundário
+# Paleta oficial — extraída das versões reais do logo Lummé
+ROXO       = "#7B3F6E"   # Roxo Queimado — cor principal (logo v3 fundo)
+DOURADO    = "#C09850"   # Dourado Editorial — acento (logo v3 elementos)
+ESPRESSO   = "#2C1A14"   # Espresso/Marrom Profundo — logo v1,4,5
+AREIA      = "#B5A898"   # Areia Quente — fundo logos v2 e v6
+CHAMPAGNE  = "#F2E8D5"   # Champagne Claro — fundo logo v5
+ROXO_CLARO = "#E8D6E4"   # Roxo claro — tabelas alternadas
+CINZA_ESC  = "#2C2C2C"   # Cinza profundo — texto documentos
+CINZA_MED  = "#6B6B6B"   # Cinza médio — texto secundário
 BRANCO     = "#FFFFFF"
 VERDE      = "#2E7D32"
 VERMELHO   = "#C62828"

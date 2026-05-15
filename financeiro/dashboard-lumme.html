@@ -9,22 +9,25 @@
   /* ── Reset & Base ─────────────────────────────────────────────────────── */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
-    --roxo:       #7B3F6E;
-    --roxo-esc:   #5B2D52;
-    --roxo-claro: #E8D6E4;
-    --dourado:    #C09850;
-    --champagne:  #F2E8D5;
-    --cinza-esc:  #2C2C2C;
-    --cinza-med:  #6B6B6B;
-    --branco:     #FFFFFF;
-    --verde:      #2E7D32;
-    --verde-claro:#E8F5E9;
-    --vermelho:   #C62828;
-    --verm-claro: #FFEBEE;
-    --amarelo:    #F57F17;
-    --amar-claro: #FFF8E1;
-    --radius:     12px;
-    --shadow:     0 2px 12px rgba(123,63,110,.10);
+    /* Paleta oficial Lummé — extraída das versões do logo */
+    --roxo:        #7B3F6E;   /* Roxo Queimado — cor principal */
+    --roxo-esc:    #5B2D52;   /* Roxo escuro — hover, sombra */
+    --roxo-claro:  #E8D6E4;   /* Roxo claro — tabelas alternadas */
+    --dourado:     #C09850;   /* Dourado Editorial — acento */
+    --espresso:    #2C1A14;   /* Espresso/Marrom Profundo — logo v1,4,5 */
+    --areia:       #B5A898;   /* Areia Quente — fundo logos v2,6 */
+    --champagne:   #F2E8D5;   /* Champagne Claro — fundo logo v5 */
+    --cinza-esc:   #2C2C2C;   /* Cinza profundo — texto documentos */
+    --cinza-med:   #6B6B6B;   /* Cinza médio — texto secundário */
+    --branco:      #FFFFFF;
+    --verde:       #2E7D32;
+    --verde-claro: #E8F5E9;
+    --vermelho:    #C62828;
+    --verm-claro:  #FFEBEE;
+    --amarelo:     #F57F17;
+    --amar-claro:  #FFF8E1;
+    --radius:      12px;
+    --shadow:      0 2px 12px rgba(123,63,110,.12);
   }
   body {
     font-family: 'Calibri', 'Segoe UI', sans-serif;
@@ -37,22 +40,40 @@
   header {
     background: var(--roxo);
     color: var(--branco);
-    padding: 28px 40px 24px;
+    padding: 22px 40px 20px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 16px;
+    border-bottom: 3px solid var(--dourado);
   }
-  header h1 {
-    font-size: 28px;
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .header-brand svg {
+    flex-shrink: 0;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.18));
+  }
+  .header-text h1 {
+    font-size: 11px;
     font-weight: 700;
-    letter-spacing: .5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--dourado);
+    margin-bottom: 3px;
   }
-  header h1 span { color: var(--dourado); }
-  header .sub {
-    font-size: 12px;
-    color: rgba(255,255,255,.65);
+  .header-text .titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--branco);
+    line-height: 1.1;
+  }
+  .header-text .sub {
+    font-size: 11px;
+    color: rgba(255,255,255,.55);
     margin-top: 4px;
   }
   .header-meta {
@@ -354,10 +375,42 @@
 
 <!-- ── Header ─────────────────────────────────────────────────────────────── -->
 <header>
-  <div>
-    <h1>LUMMÉ <span>·</span> Dashboard Financeiro</h1>
-    <p class="sub">MADU Gestão Empresarial LTDA · CNPJ 65.723.134/0001-86</p>
+  <div class="header-brand">
+    <!-- Mandala Lummé — SVG aproximado da marca geométrica -->
+    <svg width="58" height="58" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Círculo externo suave -->
+      <circle cx="50" cy="50" r="46" stroke="#C09850" stroke-width="1.2" fill="none" opacity="0.3"/>
+      <!-- Pétalas entrelaçadas — 8 losangos arredondados rotacionados -->
+      <g transform="translate(50,50)">
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(0)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(45)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(90)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(135)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(180)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(225)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(270)"/>
+        <rect x="-9" y="-36" width="18" height="34" rx="9" ry="9" fill="none" stroke="#C09850" stroke-width="2.2" transform="rotate(315)"/>
+        <!-- Estrela interna -->
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(22.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(67.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(112.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(157.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(202.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(247.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(292.5)"/>
+        <rect x="-6" y="-22" width="12" height="22" rx="6" ry="6" fill="none" stroke="#E8D6E4" stroke-width="1.5" transform="rotate(337.5)"/>
+        <!-- Centro -->
+        <circle cx="0" cy="0" r="5" fill="#C09850" opacity="0.6"/>
+      </g>
+    </svg>
+
+    <div class="header-text">
+      <h1>LUMMÉ · AGÊNCIA CRIATIVA</h1>
+      <div class="titulo">Dashboard Financeiro</div>
+      <p class="sub">MADU Gestão Empresarial LTDA · CNPJ 65.723.134/0001-86</p>
+    </div>
   </div>
+
   <div class="header-meta">
     <strong id="data-hoje"></strong>
     @lumme.agencia

@@ -139,22 +139,33 @@ Características: Humanista, limpa, excelente legibilidade em telas e PDF. Compl
 
 ## 6. PALETA DE CORES
 
+A paleta Lummé é estruturada em três grupos: **cores primárias** (usadas no logo e nos materiais principais), **cores de fundo** (backgrounds das versões do logo) e **cores de suporte** (uso em documentos e layouts digitais).
+
 ### Cores Primárias
 
 | Nome | Hex | RGB | Uso |
 |------|-----|-----|-----|
-| **Roxo Queimado** | `#7B3F6E` | 123, 63, 110 | Cor principal — headers, fundos de destaque, bordas |
-| **Dourado Editorial** | `#C09850` | 192, 152, 80 | Acento — ícones, linha divisória, destaques |
-| **Champagne / Marfim** | `#F2E8D5` | 242, 232, 213 | Fundo neutro, backgrounds de seção |
+| **Roxo Queimado** | `#7B3F6E` | 123, 63, 110 | Cor principal — fundo versão 3 do logo, headers, CTAs |
+| **Dourado Editorial** | `#C09850` | 192, 152, 80 | Acento — logo v3, ícones, destaques, separadores |
+| **Espresso / Marrom Profundo** | `#2C1A14` | 44, 26, 20 | Logo versões 1, 4, 5 — cor do wordmark padrão |
 
-### Cores Secundárias
+### Cores de Fundo (direto das versões oficiais do logo)
+
+| Nome | Hex | RGB | Versão do logo |
+|------|-----|-----|----------------|
+| **Branco** | `#FFFFFF` | 255, 255, 255 | Versão 1 (horizontal preta) |
+| **Areia Quente** | `#B5A898` | 181, 168, 152 | Versões 2 e 6 |
+| **Champagne Claro** | `#F2E8D5` | 242, 232, 213 | Versão 5 |
+| **Roxo Queimado** | `#7B3F6E` | 123, 63, 110 | Versão 3 (fundo) |
+| **Espresso Escuro** | `#2C1A14` | 44, 26, 20 | Versão 4 (fundo) |
+
+### Cores de Suporte (documentos e layouts digitais)
 
 | Nome | Hex | RGB | Uso |
 |------|-----|-----|-----|
-| **Branco** | `#FFFFFF` | 255, 255, 255 | Fundo padrão de documentos |
-| **Cinza Profundo** | `#2C2C2C` | 44, 44, 44 | Texto principal (nunca preto puro) |
-| **Cinza Médio** | `#6B6B6B` | 107, 107, 107 | Texto secundário, legendas |
-| **Roxo Claro** | `#E8D6E4` | 232, 214, 228 | Fundo de tabelas alternadas |
+| **Roxo Claro** | `#E8D6E4` | 232, 214, 228 | Fundo de tabelas alternadas, linhas pares |
+| **Cinza Profundo** | `#2C2C2C` | 44, 44, 44 | Texto principal em documentos (nunca preto puro) |
+| **Cinza Médio** | `#6B6B6B` | 107, 107, 107 | Texto secundário, legendas, rodapés |
 
 ### Regras de Uso de Cor
 
@@ -183,30 +194,146 @@ Características: Humanista, limpa, excelente legibilidade em telas e PDF. Compl
 
 ---
 
-## 7. LOGO — USO E RESTRIÇÕES
+## 7. LOGO — ESTRUTURA, VERSÕES E RESTRIÇÕES
 
-### Versões do Logo
+### Anatomia do Logo
 
-| Versão | Fundo | Uso |
-|--------|-------|-----|
-| Primária (Roxo + Dourado) | Fundo branco ou Champagne | Documentos, apresentações |
-| Negativa (Branco + Dourado) | Fundo Roxo Queimado | Capas, banners escuros |
-| Monocromática | Qualquer fundo adequado | Impressão P&B, bordado |
+O logo Lummé é composto por dois elementos inseparáveis:
+
+**1. Símbolo — Mandala Geométrica**
+Figura central formada por um padrão geométrico entrelaçado de inspiração Islâmica/girih — pétalas arredondadas que se cruzam formando uma estrela-flor. Transmite: precisão, complexidade com elegância, luz e simetria. É o elemento de identidade mais diferenciado da marca.
+
+**2. Wordmark — "lummé"**
+Tipografia display serifada em caixa baixa com acento agudo no "é". Caracteres com personalidade própria: serifas suaves, proporções amplas, altura-x generosa. O "é" acentuado é o detalhe de identidade da marca.
+
+**3. Tagline — "Agencia criativa"** *(versão horizontal apenas)*
+Em tipografia serifada leve, peso fino. Posicionada abaixo do wordmark com espaçamento generoso.
+
+---
+
+### Versões Oficiais do Logo
+
+A Lummé possui **6 versões oficiais** do logo. Cada uma tem contexto de uso específico:
+
+---
+
+**VERSÃO 1 — HORIZONTAL PRETA (versão padrão)**
+
+```
+[Mandala]  lummé
+             Agencia criativa
+```
+
+| Elemento | Cor |
+|---------|-----|
+| Símbolo e wordmark | Marrom escuro / quase preto (#2C1A14) |
+| Tagline "Agencia criativa" | Marrom escuro (#2C1A14) |
+| Fundo | Branco (#FFFFFF) |
+
+**Uso:** Documentos impressos e digitais, contratos, propostas, assinatura de e-mail, papel timbrado, apresentações em fundo branco. Esta é a **versão principal** para uso em comunicação profissional.
+
+---
+
+**VERSÃO 2 — VERTICAL ROXO / FUNDO AREIA**
+
+| Elemento | Cor |
+|---------|-----|
+| Símbolo e wordmark | Roxo Queimado (#7B3F6E) |
+| Fundo | Areia Quente (#B5A898) |
+
+**Uso:** Posts de feed no Instagram, Stories, capas de documentos digitais, apresentações com fundo areia.
+
+---
+
+**VERSÃO 3 — VERTICAL DOURADO / FUNDO ROXO** *(versão premium)*
+
+| Elemento | Cor |
+|---------|-----|
+| Símbolo e wordmark | Dourado Editorial (#C09850) |
+| Fundo | Roxo Queimado (#7B3F6E) |
+
+**Uso:** Capas de proposta premium, banners de alta visibilidade, materiais de evento, apresentações institucionais. É a versão de maior impacto visual — usar com moderação para preservar exclusividade.
+
+---
+
+**VERSÃO 4 — VERTICAL CHAMPAGNE / FUNDO ESPRESSO** *(versão noturna)*
+
+| Elemento | Cor |
+|---------|-----|
+| Símbolo e wordmark | Champagne/Areia (#C4B5A0) |
+| Fundo | Espresso / Marrom Escuro (#2C1A14) |
+
+**Uso:** Fundos escuros, capas de relatório premium, Stories com fundo escuro, materiais gráficos noturnos.
+
+---
+
+**VERSÃO 5 — VERTICAL ESCURO / FUNDO CHAMPAGNE**
+
+| Elemento | Cor |
+|---------|-----|
+| Símbolo e wordmark | Marrom Escuro (#2C1A14) |
+| Fundo | Champagne Claro (#F2E8D5) |
+
+**Uso:** Materiais impressos em fundo creme, papelaria premium, cartão de visita (frente), embalagens.
+
+---
+
+**VERSÃO 6 — VERTICAL ESCURO / FUNDO AREIA**
+
+| Elemento | Cor |
+|---------|-----|
+| Símbolo e wordmark | Marrom Escuro (#2C1A14) |
+| Fundo | Areia Quente (#B5A898) |
+
+**Uso:** Variação da versão 5 para fundos de tom médio — backgrounds de foto, texturas, materiais com fundo areia.
+
+---
+
+### Tabela de Uso Rápido
+
+| Contexto | Versão recomendada |
+|----------|--------------------|
+| Documentos (Word, PDF) | Versão 1 — Horizontal Preta |
+| Posts Instagram | Versão 2 ou 3 |
+| Proposta comercial premium | Versão 3 |
+| Relatório mensal | Versão 1 ou 5 |
+| Stories com fundo escuro | Versão 4 |
+| Cartão de visita | Versão 5 |
+| Banner evento | Versão 3 |
+| Assinatura de e-mail | Versão 1 |
+
+---
 
 ### Espaço de Proteção
-O logo deve ter espaço mínimo equivalente à altura da letra "L" de "Lummé" em todos os lados.
+
+O espaço mínimo em volta do logo deve ser equivalente à **altura da letra "l" do wordmark** em todos os quatro lados. Nenhum elemento gráfico ou texto pode invadir essa área.
+
+```
+     ↕ espaço
+← → [LOGO COMPLETO] ← →
+     ↕ espaço
+```
 
 ### Tamanho Mínimo
-- Digital: 120px de largura
-- Impresso: 2,5cm de largura
 
-### O que NUNCA fazer com o logo:
-- Distorcer proporções
-- Aplicar sombra ou efeitos
-- Usar em fundo com baixo contraste
-- Alterar as cores
-- Separar o ícone do texto (quando houver conjunto)
-- Rotacionar
+| Uso | Tamanho mínimo |
+|-----|----------------|
+| Digital (tela) | 120px de largura (horizontal) · 80px (vertical) |
+| Impresso | 3cm de largura (horizontal) · 2cm (vertical) |
+| Favicon / Ícone de app | Somente o símbolo (mandala), sem wordmark |
+
+### O que NUNCA fazer com o logo
+
+| Proibido | Por quê |
+|----------|---------|
+| Distorcer proporções (esticar/comprimir) | Destrói a integridade do símbolo e do wordmark |
+| Aplicar sombra, brilho ou efeitos | Amadorismo — o logo tem força sem efeitos |
+| Usar cores fora das versões oficiais | Quebra a coerência da identidade |
+| Separar símbolo do wordmark | Só o símbolo isolado é permitido em favicon/ícone |
+| Colocar sobre fundo com baixo contraste | Compromete a leitura e a elegância |
+| Rotacionar o símbolo | A mandala tem orientação definida |
+| Redimensionar só o símbolo sem o wordmark | As proporções entre símbolo e texto são fixas |
+| Usar sobre fotografia sem área limpa | Posicionar só sobre áreas sem textura/cor concorrente |
 
 ---
 
