@@ -7,3 +7,8 @@ test-*.pdf
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Claude sync - rastreia conversas mas ignora arquivos temporários
+!.claude-sync/
+!.claude-sync/**
+.claude-sync/conversations/**/*.tmp
