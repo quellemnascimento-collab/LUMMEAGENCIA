@@ -109,7 +109,7 @@ Prospectar ativamente profissionais liberais ativos no Instagram ES via DM — o
 
 ### Configuração técnica
 - **Plataforma:** RD Station ou Mailchimp
-- **Remetente:** contato@lumme.com.br (domínio próprio — nunca Gmail)
+- **Remetente:** contato@lummeagenciacriativa.com.br (domínio próprio — nunca Gmail)
 - **Nome do remetente:** "Quellem | Lummé" (não "Lummé" genérico)
 - **Aquecimento de domínio:** Enviar máx. 50 e-mails/dia nas primeiras 2 semanas
 - **Rastreamento:** Aberturas, cliques, respostas — todas registradas no CRM

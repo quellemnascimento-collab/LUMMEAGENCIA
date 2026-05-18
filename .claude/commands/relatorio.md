@@ -86,7 +86,7 @@ Checklist do que foi produzido na semana:
 
 ---
 
-## 6. MÉTRICAS DE CONTEÚDO (@lumme.agencia)
+## 6. MÉTRICAS DE CONTEÚDO (@lummeagenciacriativa)
 
 | Plataforma | Posts | Alcance | Engajamento | Seguidores novos |
 |-----------|-------|---------|-------------|-----------------|
@@ -118,7 +118,7 @@ O que pode impedir o progresso da próxima semana:
 ---
 
 ## Rodapé
-`Lummé · Relatório Executivo Semanal · @lumme.agencia · Uso interno · Cada detalhe importa.`
+`Lummé · Relatório Executivo Semanal · @lummeagenciacriativa · Uso interno · Cada detalhe importa.`
 
 ---
 

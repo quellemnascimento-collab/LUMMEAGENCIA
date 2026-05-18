@@ -19,7 +19,7 @@ A Lummé não compra ferramenta por modismo. Cada ferramenta entra quando a oper
 | **Notion (gratuito)** | Gestão de projetos, briefings, base de conhecimento | Gratuito | Configurar agora |
 | **Domínio + hospedagem** | Site/landing page da Lummé | R$ 30–50/mês | Mês 1 |
 | **Suite Adobe** | Illustrator + Photoshop (criação profissional) | R$ 115/mês | Já tem |
-| **Google Workspace** | E-mail profissional (@quellem.com.br ou @lumme.com.br) | R$ 30/mês | Mês 1 |
+| **Google Workspace** | E-mail profissional (@quellem.com.br ou @lummeagencia.com.br) | R$ 30/mês | Mês 1 |
 
 **Investimento mensal estimado — Mês 1:** R$ 370–400
 
@@ -69,7 +69,7 @@ A Lummé não compra ferramenta por modismo. Cada ferramenta entra quando a oper
 |------|--------|-------------|
 | **Sessão de fotos de branding** | Material para 3–6 meses de conteúdo | R$ 500–1.500 |
 | **Cartão de visita físico** (100 unidades) | Networking presencial | R$ 80–150 |
-| **Domínio lumme.com.br** | Identidade digital da agência | R$ 40–60/ano |
+| **Domínio lummeagencia.com.br** | Identidade digital da agência | R$ 40–60/ano |
 
 ---
 

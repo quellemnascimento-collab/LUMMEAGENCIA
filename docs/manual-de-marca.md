@@ -27,9 +27,11 @@ A Lummé é uma agência criativa de branding, posicionamento e marketing estrat
 
 **Razão social:** MADU Gestão Empresarial LTDA
 **CNPJ:** 65.723.134/0001-86
-**Handle oficial:** @lumme.agencia
+**Handle oficial:** @lummeagenciacriativa
 **Fundadora:** Márcia Quellem Nascimento
-**Contato:** contato@lumme.com.br · (27) 99884-5482
+**Email:** contato@lummeagencia.com.br
+**Site:** www.lummeagencia.com.br
+**WhatsApp:** (27) 99884-5482
 
 ---
 
@@ -58,17 +60,38 @@ Ser referência regional em branding estratégico com IA — a agência que prof
 
 ## 3. POSICIONAMENTO E TOM DE MARCA
 
-### Posicionamento Central
-**Premium | Consultivo | Resultado-Orientado**
+### Tagline Principal
+> **"A autoridade que não precisa gritar."**
 
-A Lummé não compete por preço. Compete por qualidade, método e resultado documentado. Nosso cliente não quer a agência mais barata — quer a que entende seu negócio e gera retorno real.
+### Frase Central
+> **"A Lummé não entrega posts. Entrega posicionamento."**
+
+### Tagline Operacional
+Marketing estratégico com IA aplicada
+
+### Posicionamento Central
+**Premium | Consultivo | Presença Verificável**
+
+A Lummé não compete por preço. Compete por qualidade, método e resultado documentado. Nosso cliente não quer a agência mais barata — quer a que entende seu negócio e consolida presença real.
+
+**ICP (perfil de cliente ideal):** Profissional liberal com 5–20 anos de carreira — advogado, arquiteto, médico, consultor — com autoridade técnica reconhecida, mas presença digital que não reflete o nível do trabalho. Ticket médio: R$ 3.500 a R$ 8.000/mês.
+
+### Método Eixo
+
+A metodologia central da Lummé. Três etapas sequenciais, sem atalhos:
+
+| Etapa | Nome | O que acontece |
+|-------|------|----------------|
+| 1 | **Diagnóstico** | Análise da presença atual, ICP, lacunas e oportunidades reais |
+| 2 | **Construção** | Desenvolvimento de identidade, narrativa e estrutura de conteúdo |
+| 3 | **Ativação** | Execução, publicação e mensuração com KPIs contratuais |
 
 ### Arquitetura de Marca
 
 ```
 MADU Gestão Empresarial LTDA (razão social)
-    └── Lummé (marca comercial da agência)
-            └── @lummeagencia (perfil pessoal da fundadora — topo de funil)
+    └── Lummé Agência Criativa (marca comercial)
+            └── @lummeagenciacriativa (perfil Instagram oficial)
 ```
 
 ### Os 3 Pilares de Voz
@@ -92,43 +115,47 @@ A identidade visual da Lummé é construída sobre três conceitos:
 ### Princípios Visuais
 
 - Espaço em branco generoso — respiração visual
-- Hierarquia tipográfica clara — Garamond nos títulos, Calibri no corpo
-- Cores usadas com contenção — o dourado é acento, não fundo
+- Hierarquia tipográfica clara — Cormorant Garamond nos títulos, Inter no corpo
+- Cores usadas com contenção — o champanhe é acento, não fundo
 - Tabelas e estruturas limpas — informação antes de ornamento
 
 ---
 
 ## 5. TIPOGRAFIA
 
-### Fonte Principal — Headings
-**Garamond Light / Regular**
+### Fonte Principal — Headings (Digital e Impresso)
+**Cormorant Garamond — peso 300 a 400**
 
-Uso: Títulos, subtítulos, nomes de seção, chamadas principais
+Uso: Títulos, subtítulos, nomes de seção, chamadas principais, wordmark
 
 ```
 Lummé Agência Criativa
-Luz estratégica para marcas de alto padrão.
+A autoridade que não precisa gritar.
 ```
 
-Características: Serifada clássica, elegante, leitura premium. Transmite autoridade sem arrogância.
+Características: Serifada de alta elegância, peso leve que transmite autoridade sem arrogância. Excelente em telas e impressão. Substitui definitivamente o Garamond genérico do Office.
 
-### Fonte Secundária — Body
-**Calibri Regular / Light**
+### Fonte Secundária — Body (Digital e Impresso)
+**Inter — peso 300 a 500**
 
-Uso: Texto corrido, tabelas, listas, legendas, rodapés
+Uso: Texto corrido, tabelas, listas, legendas, rodapés, interfaces digitais
 
-Características: Humanista, limpa, excelente legibilidade em telas e PDF. Complementa Garamond sem concorrer.
+Características: Sans-serif humanista desenhada para telas — legibilidade superior em qualquer tamanho. Complementa Cormorant Garamond sem concorrer.
+
+### Alternativa para Documentos Offline (sem acesso a fontes web)
+- Headings: **Garamond Light / Regular** (substituto aceitável)
+- Body: **Calibri Regular / Light** (substituto aceitável)
 
 ### Hierarquia Tipográfica
 
-| Nível | Fonte | Tamanho (Word/PDF) | Uso |
+| Nível | Fonte | Tamanho (Web/PDF) | Uso |
 |-------|-------|--------------------|-----|
-| H1 — Título principal | Garamond Bold | 28–32pt | Capa, título do documento |
-| H2 — Seção | Garamond Regular | 18–22pt | Títulos de seção |
-| H3 — Subseção | Garamond Light Itálico | 14–16pt | Subtítulos |
-| Body | Calibri Regular | 11–12pt | Texto corrido |
-| Caption / Rodapé | Calibri Light | 9–10pt | Legendas, rodapés |
-| Destaque | Calibri Bold | 11–12pt | Dados importantes em tabelas |
+| H1 — Título principal | Cormorant Garamond 300 | 28–36pt | Capa, título do documento |
+| H2 — Seção | Cormorant Garamond 400 | 18–24pt | Títulos de seção |
+| H3 — Subseção | Cormorant Garamond 300 Itálico | 14–16pt | Subtítulos |
+| Body | Inter 300–400 | 11–12pt | Texto corrido |
+| Caption / Rodapé | Inter 300 | 9–10pt | Legendas, rodapés |
+| Destaque | Inter 500 | 11–12pt | Dados importantes em tabelas |
 
 ### Espaçamento
 - Entrelinhas body: 1,5
@@ -139,58 +166,51 @@ Características: Humanista, limpa, excelente legibilidade em telas e PDF. Compl
 
 ## 6. PALETA DE CORES
 
-A paleta Lummé é estruturada em três grupos: **cores primárias** (usadas no logo e nos materiais principais), **cores de fundo** (backgrounds das versões do logo) e **cores de suporte** (uso em documentos e layouts digitais).
+A Lummé opera com duas paletas complementares: uma para ambientes digitais (web, redes sociais, UI) e uma para documentos físicos e PDF. As duas convivem dentro da identidade — não são versões alternativas, são contextos diferentes do mesmo sistema visual.
 
-### Cores Primárias
-
-| Nome | Hex | RGB | Uso |
-|------|-----|-----|-----|
-| **Roxo Queimado** | `#7B3F6E` | 123, 63, 110 | Cor principal — fundo versão 3 do logo, headers, CTAs |
-| **Dourado Editorial** | `#C09850` | 192, 152, 80 | Acento — logo v3, ícones, destaques, separadores |
-| **Espresso / Marrom Profundo** | `#2C1A14` | 44, 26, 20 | Logo versões 1, 4, 5 — cor do wordmark padrão |
-
-### Cores de Fundo (direto das versões oficiais do logo)
-
-| Nome | Hex | RGB | Versão do logo |
-|------|-----|-----|----------------|
-| **Branco** | `#FFFFFF` | 255, 255, 255 | Versão 1 (horizontal preta) |
-| **Areia Quente** | `#B5A898` | 181, 168, 152 | Versões 2 e 6 |
-| **Champagne Claro** | `#F2E8D5` | 242, 232, 213 | Versão 5 |
-| **Roxo Queimado** | `#7B3F6E` | 123, 63, 110 | Versão 3 (fundo) |
-| **Espresso Escuro** | `#2C1A14` | 44, 26, 20 | Versão 4 (fundo) |
-
-### Cores de Suporte (documentos e layouts digitais)
+### Paleta Digital (Web / Social Media)
 
 | Nome | Hex | RGB | Uso |
 |------|-----|-----|-----|
-| **Roxo Claro** | `#E8D6E4` | 232, 214, 228 | Fundo de tabelas alternadas, linhas pares |
-| **Cinza Profundo** | `#2C2C2C` | 44, 44, 44 | Texto principal em documentos (nunca preto puro) |
-| **Cinza Médio** | `#6B6B6B` | 107, 107, 107 | Texto secundário, legendas, rodapés |
+| **Ameixa Escuro** | `#0d001f` | 13, 0, 31 | Fundo principal dark — base de layouts digitais |
+| **Ameixa Profundo** | `#1f003a` | 31, 0, 58 | Backgrounds secundários, cartões, seções |
+| **Ameixa Médio** | `#3f006d` | 63, 0, 109 | Elementos de destaque, hover, bordas ativas |
+| **Champanhe** | `#dcc188` | 220, 193, 136 | Cor principal — títulos, CTAs, wordmark, ícones |
+| **Lilás** | `#c86edc` | 200, 110, 220 | Acentos, taglines, tagline do logo, links |
+| **Lavanda Clara** | `#f5effd` | 245, 239, 253 | Texto em fundo escuro, corpo de texto principal |
+| **Lavanda Média** | `#d4c6e8` | 212, 198, 232 | Texto secundário, legendas, captions |
+
+### Paleta de Documentos (PDF / Impresso)
+
+| Nome | Hex | RGB | Uso |
+|------|-----|-----|-----|
+| **Roxo Queimado** | `#7B3F6E` | 123, 63, 110 | Cor principal — headers, tabelas, títulos |
+| **Dourado Editorial** | `#C09850` | 192, 152, 80 | Acento — separadores, ícones, destaques |
+| **Espresso / Marrom Profundo** | `#2C1A14` | 44, 26, 20 | Wordmark, texto principal em impressão |
+| **Areia Quente** | `#B5A898` | 181, 168, 152 | Fundo de logos, versões alternativas |
+| **Champagne Claro** | `#F2E8D5` | 242, 232, 213 | Fundo de documentos, seções destacadas |
+| **Roxo Claro** | `#E8D6E4` | 232, 214, 228 | Alternância de tabelas, linhas pares |
+| **Cinza Profundo** | `#2C2C2C` | 44, 44, 44 | Texto principal (nunca preto puro) |
 
 ### Regras de Uso de Cor
 
-**Use o Roxo Queimado para:**
-- Cabeçalho de documentos
-- Faixas de título em tabelas
-- Bordas laterais de destaque
-- Texto de títulos quando sobre fundo claro
+**Na paleta digital:**
+- Fundo sempre escuro (ameixa) — nunca fundo branco em digital
+- Champanhe (`#dcc188`) é a cor dominante em texto e destaque
+- Lilás como acento — não como cor de fundo
+- Máximo 3 cores por composição
 
-**Use o Dourado Editorial para:**
-- Linha separadora entre seções
-- Ícones e marcadores decorativos
-- Destaques de dados importantes
-- Assinatura da marca ("Lummé" em alguns contextos)
-
-**Use o Champagne para:**
-- Fundo de seções alternadas
-- Background de citações e destaques
-- Capa de documentos
+**Na paleta de documentos:**
+- Roxo Queimado para cabeçalhos e faixas de tabela
+- Dourado como separador e acento — nunca como fundo
+- Champagne para seções alternadas e destaques
+- Texto em Espresso ou Cinza Profundo — nunca preto puro
 
 **Nunca use:**
-- Roxo e Dourado juntos como texto sobre texto
-- Preto puro (#000000) como cor de texto
+- Preto puro (#000000) como cor de texto em nenhum contexto
 - Combinações de baixo contraste (texto claro sobre fundo claro)
-- Mais de 3 cores por página
+- Mais de 3 cores por página ou composição
+- A paleta digital em documentos PDF e vice-versa sem adaptação
 
 ---
 
@@ -201,13 +221,13 @@ A paleta Lummé é estruturada em três grupos: **cores primárias** (usadas no 
 O logo Lummé é composto por dois elementos inseparáveis:
 
 **1. Símbolo — Mandala Geométrica**
-Figura central formada por um padrão geométrico entrelaçado de inspiração Islâmica/girih — pétalas arredondadas que se cruzam formando uma estrela-flor. Transmite: precisão, complexidade com elegância, luz e simetria. É o elemento de identidade mais diferenciado da marca.
+Composição de 9 retângulos arredondados girados em ângulos progressivos, formando uma mandala com ritmo rotacional. Cor: champanhe (`#dcc188`) sobre fundo escuro (ameixa). Transmite: precisão, complexidade com elegância, luz e simetria. É o elemento de identidade mais diferenciado da marca.
 
 **2. Wordmark — "lummé"**
-Tipografia display serifada em caixa baixa com acento agudo no "é". Caracteres com personalidade própria: serifas suaves, proporções amplas, altura-x generosa. O "é" acentuado é o detalhe de identidade da marca.
+Tipografia Cormorant Garamond em caixa baixa, peso 300–400, cor champanhe (`#dcc188`). O acento agudo no "é" é o detalhe de identidade intransferível da marca — nunca suprimir.
 
-**3. Tagline — "Agencia criativa"** *(versão horizontal apenas)*
-Em tipografia serifada leve, peso fino. Posicionada abaixo do wordmark com espaçamento generoso.
+**3. Tagline — "AGÊNCIA CRIATIVA"** *(versão horizontal — em versalete)*
+Inter ou Cormorant Garamond em versalete (small caps), cor lilás (`#c86edc`). Posicionada abaixo do wordmark com espaçamento generoso. O contraste cromático entre champanhe e lilás é parte da identidade.
 
 ---
 
@@ -369,17 +389,26 @@ O espaço mínimo em volta do logo deve ser equivalente à **altura da letra "l"
 | "Somos incríveis em marketing!" | "6 entregáveis com prazo e KPI definidos em contrato." |
 | "Sua marca vai bombar!" | "Sua marca vai converter." |
 
-### Vocabulário da Marca
+### Vocabulário da Marca — Evitar vs. Preferir
 
-**Palavras que usamos:** estratégia, posicionamento, resultado, conversão, método, layer, presença, autoridade, curadoria, mensurável, KPI, diagnóstico, inteligência
+| Evitar | Preferir |
+|--------|----------|
+| resultado (genérico) | percepção, reputação, presença verificável |
+| engajamento | consistência, autoridade |
+| viralizar, bombar | posicionamento, conversão |
+| autêntico | criterioso, preciso |
+| pacote | escopo, processo |
+| estratégia digital (vago) | Método Eixo, diagnóstico |
+| incrível, transformador | mensurável, específico |
+| transforme, impulsione | construa, consolide, ative |
 
-**Palavras que evitamos:** fofo, incrível, bombar, viral, trending, sensacional, revolucionário, mágico
+**Palavras da marca:** percepção, reputação, presença, posicionamento, autoridade, consistência, verificável, específico, escopo, processo, Método Eixo, diagnóstico, criterioso, preciso, curadoria, KPI, inteligência
 
 ---
 
 ## 9. APLICAÇÕES DIGITAIS
 
-### Instagram @lumme.agencia
+### Instagram @lummeagenciacriativa
 
 **Bio:** Estrutura recomendada
 ```
@@ -391,14 +420,14 @@ Branding + Social Media + IA para marcas premium
 ```
 
 **Padrão de feed:**
-- Posts: tipografia Garamond em destaques, Calibri em corpo
-- Cores: Roxo, Champagne e Branco predominam. Dourado como acento
+- Posts: tipografia Cormorant Garamond em destaques, Inter em corpo
+- Cores: Ameixa escuro como fundo, Champanhe e Lilás predominam
 - Proporção: 1:1 (feed quadrado), 4:5 (retrato), 9:16 (Stories/Reels)
-- Background padrão: #F2E8D5 ou #FFFFFF
-- Nunca fundo preto — não é identidade da Lummé
+- Background padrão: #0d001f ou #1f003a
+- Nunca fundo branco puro em digital — não reflete a identidade da Lummé
 
 **Stories:**
-- Fonte: Garamond para títulos, Calibri para texto
+- Fonte: Cormorant Garamond para títulos, Inter para texto
 - CTA sempre presente na última tela
 - Enquetes, caixas de pergunta e contagem regressiva são bem-vindos
 
@@ -409,9 +438,9 @@ Branding + Social Media + IA para marcas premium
 
 ### LinkedIn
 - Tom mais formal e técnico que o Instagram
-- Artigos longos com dados e método
+- Artigos longos com dados e método — estrutura pelo Método Eixo (Diagnóstico → Construção → Ativação)
 - Sem emojis excessivos
-- Foco em resultados, ROI, metodologia
+- Foco em reputação, autoridade, metodologia e presença verificável
 
 ### WhatsApp Business
 - Saudação automática com nome da agência
@@ -435,7 +464,7 @@ Todo documento produzido pela Lummé deve seguir:
 
 **Rodapé:**
 - "Lummé · [Nome do Documento] · [Mês/Ano]"
-- @lumme.agencia · contato@lumme.com.br
+- @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br
 - "Cada detalhe importa." (tagline da marca)
 - Numeração de página (exceto capa)
 
@@ -462,8 +491,8 @@ Todo documento produzido pela Lummé deve seguir:
 ```
 Márcia Quellem Nascimento
 Fundadora · Lummé Agência Criativa
-(27) 99884-5482 · contato@lumme.com.br
-@lumme.agencia · lumme.com.br
+(27) 99884-5482 · contato@lummeagencia.com.br
+@lummeagenciacriativa · www.lummeagencia.com.br
 MADU Gestão Empresarial LTDA · CNPJ 65.723.134/0001-86
 ```
 
@@ -475,7 +504,7 @@ MADU Gestão Empresarial LTDA · CNPJ 65.723.134/0001-86
 
 | Erro | Por que é problema | Como corrigir |
 |------|--------------------|---------------|
-| Misturar fontes aleatórias | Quebra coerência visual | Usar apenas Garamond + Calibri |
+| Misturar fontes aleatórias | Quebra coerência visual | Usar apenas Cormorant Garamond + Inter (ou alternativas offline) |
 | Usar o dourado como fundo | Perde refinamento | Dourado é acento, não base |
 | Cores saturadas demais | Foge do padrão premium | Usar paleta definida sem exceção |
 | Texto em preto puro | Parece digital baixo padrão | Usar Cinza Profundo #2C2C2C |
@@ -498,7 +527,7 @@ Antes de publicar qualquer material, verificar:
 
 - [ ] Logo no padrão correto e com espaço de proteção
 - [ ] Cores dentro da paleta definida
-- [ ] Tipografia: apenas Garamond e Calibri
+- [ ] Tipografia: Cormorant Garamond + Inter (digital) ou Garamond + Calibri (documentos offline)
 - [ ] Tom de voz: direto, profissional, com resultado concreto
 - [ ] CTA presente e claro
 - [ ] Sem erros de português

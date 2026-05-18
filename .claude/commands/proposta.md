@@ -55,7 +55,7 @@ Use: método, KPI, resultado documentado, prazo.
 
 ## Rodapé
 `Lummé · MADU Gestão Empresarial LTDA · CNPJ 65.723.134/0001-86`
-`contato@lumme.com.br · (27) 99884-5482 · @lumme.agencia`
+`contato@lummeagencia.com.br · (27) 99884-5482 · @lummeagenciacriativa`
 `Cada detalhe importa.`
 
 ---

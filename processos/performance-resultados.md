@@ -129,7 +129,7 @@ Até o **5º dia útil** do mês seguinte
 - Dados positivos: verde suave
 - Dados negativos ou atenção: vermelho suave
 - Metas: texto em Dourado #C09850
-- Rodapé: "Lummé · Relatório Mensal · @lumme.agencia · Cada detalhe importa."
+- Rodapé: "Lummé · Relatório Mensal · @lummeagenciacriativa · Cada detalhe importa."
 
 ---
 
@@ -360,5 +360,7 @@ Preencher mensalmente para visão geral de todos os clientes:
 
 ---
 
-*Lummé · Processo: Performance & Resultados v1.0 · Maio 2026*
+---
+
+*Lummé · MADU Gestão Empresarial LTDA · @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br · (27) 99884-5482*
 *Cada detalhe importa.*

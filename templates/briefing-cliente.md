@@ -174,7 +174,7 @@ A Lummé precisa dos seguintes acessos para iniciar (marque os que se aplicam ao
 ---
 
 ### Como você nos conheceu?
-- ( ) Instagram (@lummeagencia)
+- ( ) Instagram (@lummeagenciacriativa)
 - ( ) Indicação — Quem indicou?
 - ( ) Google
 - ( ) LinkedIn
@@ -185,4 +185,4 @@ A Lummé precisa dos seguintes acessos para iniciar (marque os que se aplicam ao
 
 *Obrigada por preencher este briefing com atenção. Quanto mais detalhe você fornecer, mais precisa e personalizada será a estratégia da Lummé para o seu negócio.*
 
-*Lummé · MADU Gestão Empresarial LTDA · contato@lumme.com.br*
+*Lummé · MADU Gestão Empresarial LTDA · contato@lummeagenciacriativa.com.br*

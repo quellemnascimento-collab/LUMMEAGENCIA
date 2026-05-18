@@ -241,8 +241,8 @@ A Lummé não prende clientes — ilumina resultados.
 **Para agendar seu Diagnóstico Gratuito:**
 
 - WhatsApp: (27) 99884-5482
-- E-mail: contato@lumme.com.br
-- Instagram: @lummeagencia
+- E-mail: contato@lummeagenciacriativa.com.br
+- Instagram: @lummeagenciacriativa
 - Calendly: [link de agendamento]
 
 ---

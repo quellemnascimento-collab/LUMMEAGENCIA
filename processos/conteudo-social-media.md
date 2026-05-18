@@ -302,6 +302,52 @@ Semanal (resumido) + Mensal (relatório completo)
 
 ---
 
+## PROCESSO 6 — LINKEDIN — MÉTODO EIXO (PLANO 90 DIAS)
+
+### Objetivo
+Posicionar o cliente como autoridade verificável no LinkedIn em 90 dias, usando o Método Eixo como fio condutor da narrativa.
+
+**Cadência:** 3 posts/semana — segunda, quarta e sexta.
+
+### Estrutura dos 90 Dias
+
+| Mês | Tema Central | Eixo | Objetivo |
+|-----|-------------|------|----------|
+| **Mês 1** | "O problema não é o conteúdo" | Identificação | Fazer o ICP reconhecer o gap de posicionamento — não de posts |
+| **Mês 2** | "Como o Método Eixo funciona" | Autoridade | Mostrar o processo, os entregáveis e os resultados verificáveis |
+| **Mês 3** | "Resultado e relação" | Conversão | Provar autoridade com cases, depoimentos e CTA direto |
+
+### Pilares por Mês
+
+**Mês 1 — Identificação**
+- Posts de diagnóstico: "O que sua presença digital diz sobre você quando você não está na sala"
+- Contraste: presença técnica vs. presença percebida
+- Perguntas de abertura: "Você tem 15 anos de carreira. Sua presença digital reflete isso?"
+- Tom: consultivo, sem julgamento, direto
+
+**Mês 2 — Autoridade**
+- Explicar o Diagnóstico: o que ele revela
+- Explicar a Construção: como se forma um posicionamento
+- Explicar a Ativação: por que canal certo é diferente de canal popular
+- Bastidores do processo — sem revelar a fórmula completa
+
+**Mês 3 — Conversão**
+- Cases de transformação (com permissão do cliente)
+- Depoimentos estruturados
+- Post de oferta: "Diagnóstico inicial gratuito — 3 vagas por mês"
+- CTA direto para conversa
+
+### Formatos recomendados para LinkedIn
+
+| Formato | Uso |
+|---------|-----|
+| Post de texto longo (800–1.200 caracteres) | Narrativa e diagnóstico |
+| Carrossel PDF | Processo e método |
+| Post com imagem editorial | Autoridade e citações |
+| Poll (enquete) | Engajamento e diagnóstico público |
+
+---
+
 ## MÉTRICAS DO SETOR
 
 | Métrica | Meta |
@@ -315,5 +361,7 @@ Semanal (resumido) + Mensal (relatório completo)
 
 ---
 
-*Lummé · Processo: Conteúdo & Social Media v1.0 · Maio 2026*
+---
+
+*Lummé · MADU Gestão Empresarial LTDA · @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br · (27) 99884-5482*
 *Cada detalhe importa.*

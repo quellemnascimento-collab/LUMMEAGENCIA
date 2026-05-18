@@ -19,6 +19,24 @@ O setor de Estratégia & Branding é o coração da Lummé. Antes de qualquer ex
 
 ---
 
+## MÉTODO EIXO — FRAMEWORK CENTRAL
+
+Todo trabalho de Estratégia & Branding da Lummé é estruturado pelo Método Eixo. Ele não é apenas um processo interno — é o argumento de venda, o guia de execução e a base para comunicação com o cliente.
+
+```
+DIAGNÓSTICO → CONSTRUÇÃO → ATIVAÇÃO
+```
+
+| Etapa | O que fazemos | Entregável |
+|-------|--------------|-----------|
+| **Diagnóstico** | Mapeamos como a marca é percebida hoje. Identificamos gaps entre o que o cliente entrega e como aparece no digital. | Mapa de Percepção — scorecard de presença, análise de concorrência, oportunidades priorizadas |
+| **Construção** | Definimos o posicionamento estratégico: o que a marca diz, para quem, com qual tom e em quais canais. | Positioning Doc — arquétipo de marca, tom de voz, ICP detalhado, diferenciais verificáveis |
+| **Ativação** | Traduzimos o posicionamento em execução nos canais certos — com método, não com volume. | Plano de Ativação + Primeiras Peças — calendário estratégico, primeiros conteúdos no padrão definido |
+
+**Princípio:** Nenhuma peça é produzida sem diagnóstico aprovado. Nenhuma ativação começa sem construção validada.
+
+---
+
 ## PROCESSO 1 — DIAGNÓSTICO DE PRESENÇA DIGITAL
 
 ### Objetivo
@@ -270,5 +288,7 @@ Clientes com pacote Premium ou Consultoria Estratégica Trimestral
 
 ---
 
-*Lummé · Processo: Estratégia & Branding v1.0 · Maio 2026*
+---
+
+*Lummé · MADU Gestão Empresarial LTDA · @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br · (27) 99884-5482*
 *Cada detalhe importa.*

@@ -14,7 +14,7 @@ MADU Gestão Empresarial LTDA
 CNPJ: 65.723.134/0001-86
 Representante: Márcia Quellem Nascimento
 Endereço: [endereço completo]
-E-mail: contato@lumme.com.br
+E-mail: contato@lummeagenciacriativa.com.br
 Telefone: (27) 99884-5482
 
 **CONTRATANTE:**

@@ -189,7 +189,7 @@
 ---
 
 *Dúvidas sobre este relatório? Entre em contato:*
-*WhatsApp: (27) 99884-5482 | E-mail: contato@lumme.com.br*
+*WhatsApp: (27) 99884-5482 | E-mail: contato@lummeagenciacriativa.com.br*
 
 ---
 

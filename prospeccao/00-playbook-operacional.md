@@ -2,7 +2,7 @@
 ## Versão para Equipe Terceirizada
 
 **Versão:** 1.0 | **Data:** Maio 2026
-**Responsável estratégico:** Márcia Quellem — contato@lumme.com.br | (27) 99884-5482
+**Responsável estratégico:** Márcia Quellem — contato@lummeagenciacriativa.com.br | (27) 99884-5482
 **Confidencial — uso interno e equipe autorizada**
 
 ---

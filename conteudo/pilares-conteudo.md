@@ -1,10 +1,10 @@
-﻿# PILARES DE CONTEÚDO — @lummeagencia + Lummé
+﻿# PILARES DE CONTEÚDO — @lummeagenciacriativa + Lummé
 
 ---
 
 ## FILOSOFIA DE CONTEÚDO
 
-O conteúdo do @lummeagencia não existe para entrar em todo conteúdo. Existe para ser o topo e meio do funil da Lummé — gerar **autoridade, confiança e leads** que se convertem em clientes da agência.
+O conteúdo do @lummeagenciacriativa não existe para entrar em todo conteúdo. Existe para ser o topo e meio do funil da Lummé — gerar **autoridade, confiança e leads** que se convertem em clientes da agência.
 
 **Regra de ouro:** Cada post deve fazer pelo menos uma das três coisas:
 1. Educar o público (construir autoridade)
@@ -207,7 +207,7 @@ Salva esse post — você vai precisar.
 
 ## HASHTAGS — ESTRATÉGIA
 
-### Categorias de hashtags para o @lummeagencia
+### Categorias de hashtags para o @lummeagenciacriativa
 
 **Alta concorrência (1–3 por post):**
 #marketingdigital #marketingcomia #brandingdigital

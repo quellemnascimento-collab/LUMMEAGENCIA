@@ -24,7 +24,7 @@ CAMADA 3 — NUTRIÇÃO
 
 ### Ativo 1 — Landing Page Principal da Lummé
 
-**URL sugerida:** lumme.com.br ou flux.quellem.com.br
+**URL sugerida:** lummeagencia.com.br ou flux.quellem.com.br
 **Plataforma:** Carrd (rápido e bonito) ou WordPress (mais robusto)
 
 **Estrutura da página:**
@@ -85,7 +85,7 @@ Formulário ou botão para Calendly
 
 ### Ativo 2 — Landing Page do E-book (Isca Digital)
 
-**URL:** lumme.com.br/guia ou link.quellem.com.br/guia
+**URL:** lummeagencia.com.br/guia ou link.quellem.com.br/guia
 **Plataforma:** Carrd ou RD Station Landing Page
 
 **Headline:**
@@ -126,7 +126,7 @@ WhatsApp (opcional): [campo]
 
 ### Ativo 3 — Landing Page do Webinar
 
-**URL:** lumme.com.br/webinar
+**URL:** lummeagencia.com.br/webinar
 **Atualizar mensalmente com a data do próximo evento**
 
 **Headline:**
@@ -272,8 +272,8 @@ Após qualquer formulário preenchido, redirecionar para página de "obrigada" c
 
 Enquanto aguarda [o guia / a confirmação / nosso contato]:
 
-→ Siga @lummeagencia para conteúdo diário sobre [assunto]
-→ Assista: [Vídeo/Reel mais relevante do @lummeagencia]
+→ Siga @lummeagenciacriativa para conteúdo diário sobre [assunto]
+→ Assista: [Vídeo/Reel mais relevante do @lummeagenciacriativa]
 → Agende já: "Prefere falar agora? [Link do Calendly]"
 ```
 

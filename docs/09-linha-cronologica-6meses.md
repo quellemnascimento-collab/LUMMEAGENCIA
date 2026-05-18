@@ -26,7 +26,7 @@
 
 | Tarefa | Prazo | Status |
 |--------|-------|--------|
-| Atualizar bio do @lummeagencia: *"Quellem | Estrategista de Branding & Marketing com IA | Fundadora @lummeagencia | ↓"* | Dia 1 | |
+| Atualizar bio do @lummeagenciacriativa: *"Quellem | Estrategista de Branding & Marketing com IA | Fundadora @lummeagenciacriativa | ↓"* | Dia 1 | |
 | Definir os 5 destaques do perfil: Sobre mim / Serviços / Cases / Lummé / Bastidores | Dia 1 | |
 | Publicar **Post 1:** "Quem é a Lummé e por que ela existe" (carrossel de posicionamento) | Dia 2–3 | |
 | Iniciar stories diários de bastidor: construção da agência em tempo real | Dia 1 (diário) | |
@@ -48,8 +48,8 @@
 | Criar **contrato padrão de prestação de serviços** (ver `/templates/contrato-servicos.md`) | Dia 2–3 | |
 | Criar **briefing padrão de cliente** (ver `/templates/briefing-cliente.md`) | Dia 3 | |
 | Publicar **Post 2:** "O que uma agência de verdade entrega (e o que não entrega)" | Dia 3–4 | |
-| Configurar e-mail profissional: contato@lumme.com.br (Google Workspace) | Dia 2 | |
-| Adquirir domínio lumme.com.br | Dia 1 | |
+| Configurar e-mail profissional: contato@lummeagenciacriativa.com.br (Google Workspace) | Dia 2 | |
+| Adquirir domínio lummeagencia.com.br | Dia 1 | |
 
 **Entregável da semana:** Proposta + Contrato + Briefing prontos para uso imediato
 
@@ -77,7 +77,7 @@
 
 | Tarefa | Prazo | Status |
 |--------|-------|--------|
-| Montar **portfólio com 3–5 cases** (próprios projetos: Lummé, @lummeagencia, Método G.O.F.) | Dias 1–3 | |
+| Montar **portfólio com 3–5 cases** (próprios projetos: Lummé, @lummeagenciacriativa, Método G.O.F.) | Dias 1–3 | |
 | Publicar **Reel 1 de alcance:** IA aplicada a negócios (tema: "Como usei IA para criar um sistema de conteúdo") | Dia 2 | |
 | Fazer **10 abordagens estratégicas:** comentar em perfis de potenciais clientes locais | Diário | |
 | Agendar sessão de fotos profissional de branding pessoal | Dia 1 | |
@@ -99,7 +99,7 @@
 ## FASE 2 — POSICIONAMENTO E PRIMEIROS LEADS
 ### Semanas 5–8 | Junho–Julho 2026
 
-**Objetivo:** Construir autoridade no @lummeagencia e gerar os primeiros leads qualificados para a Lummé.
+**Objetivo:** Construir autoridade no @lummeagenciacriativa e gerar os primeiros leads qualificados para a Lummé.
 
 ---
 
@@ -190,7 +190,7 @@
 
 | Tarefa | Status |
 |--------|--------|
-| Publicar **case de sucesso** no @lummeagencia (carrossel antes/depois com números) | |
+| Publicar **case de sucesso** no @lummeagenciacriativa (carrossel antes/depois com números) | |
 | Ativar campanha de tráfego pago para o perfil (R$ 500–800/mês de verba) | |
 | Fazer primeiro webinar ou live de autoridade: "Marketing com IA para PMEs" | |
 | Prospecção ativa intensificada: 10 abordagens/semana | |
@@ -293,7 +293,7 @@
 ## INDICADORES DE PERFORMANCE (KPIs LUMMÉ)
 
 ### KPIs de Presença Digital
-- Crescimento semanal de seguidores qualificados (@lummeagencia)
+- Crescimento semanal de seguidores qualificados (@lummeagenciacriativa)
 - Alcance médio de Reels
 - Taxa de engajamento do feed
 - Cliques no link da bio (Google Analytics)

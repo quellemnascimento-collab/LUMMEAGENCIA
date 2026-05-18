@@ -143,7 +143,7 @@ Ticket médio:                    R$ ________
 | Claude Pro (Anthropic) | IA para produção de conteúdo | R$ 110 |
 | Adobe Creative Cloud | Illustrator, Photoshop, InDesign | R$ 115 |
 | RD Station Starter | CRM e e-mail marketing | R$ 75 |
-| Domínio lumme.com.br | Identidade digital | R$ 20/ano ÷ 12 |
+| Domínio lummeagencia.com.br | Identidade digital | R$ 20/ano ÷ 12 |
 | Hospedagem | Site Lummé | R$ 30 |
 | Google Workspace | E-mail corporativo, Drive | R$ 30 |
 | Notion Plus | CRM, documentos, clientes | R$ 20 |

@@ -5,7 +5,7 @@
 **Luz estratégica para marcas de alto padrão.**
 
 **Lummé — Gestão e Marketing LTDA · CNPJ 65.723.134/0001-86**
-**Fundadora:** Márcia Quellem Nascimento · [@lummeagencia](https://instagram.com/lummeagencia)
+**Fundadora:** Márcia Quellem Nascimento · [@lummeagenciacriativa](https://instagram.com/lummeagencia)
 
 </div>
 
@@ -87,8 +87,8 @@ agenciaflux/
 
 ## Contato
 
-- **Instagram:** [@lummeagencia](https://instagram.com/lummeagencia)
-- **E-mail:** contato@lumme.com.br
+- **Instagram:** [@lummeagenciacriativa](https://instagram.com/lummeagencia)
+- **E-mail:** contato@lummeagenciacriativa.com.br
 - **Telefone:** (27) 99884-5482
 - **Localização:** Vitória, Espírito Santo, Brasil
 

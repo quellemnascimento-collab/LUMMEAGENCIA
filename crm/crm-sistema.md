@@ -19,7 +19,7 @@ O CRM da Lummé é o sistema central de controle de toda a jornada do cliente �
 
 | # | Estágio | Descrição | Prazo médio |
 |---|---------|-----------|-------------|
-| 1 | **Prospect** | Lead identificado, ainda sem contato | — |
+| 1 | **Prospect** | Lead identificado, ainda sem contato. Foco em profissional liberal com 5–20 anos de carreira e presença digital inadequada (advogado, arquiteto, médico, consultor) | — |
 | 2 | **Primeiro Contato** | Mensagem ou ligação inicial realizada | D+0 |
 | 3 | **Qualificado** | Prospect respondeu e demonstrou interesse | D+3 |
 | 4 | **Reunião Agendada** | Reunião de diagnóstico marcada | D+7 |
@@ -39,7 +39,7 @@ O CRM da Lummé é o sistema central de controle de toda a jornada do cliente �
 | Propostas enviadas | ≥ 10 |
 | Contratos fechados | 3–5 |
 | Taxa de conversão geral | ≥ 10% |
-| Ticket médio | R$ 3.500–5.000 |
+| Ticket médio | R$ 3.500–8.000 |
 
 ---
 
@@ -324,5 +324,7 @@ Quellem | Lummé
 
 ---
 
-*Lummé · CRM Sistema v1.0 · Maio 2026*
+---
+
+*Lummé · MADU Gestão Empresarial LTDA · @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br · (27) 99884-5482*
 *Cada detalhe importa.*

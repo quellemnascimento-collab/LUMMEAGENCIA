@@ -121,7 +121,8 @@ A primeira entrega acontece em até [X dias] após o kickoff.
 
 COMUNICAÇÃO DURANTE A PARCERIA:
 · WhatsApp: (27) 99884-5482 — aprovações rápidas e dúvidas do dia a dia
-· E-mail: contato@lumme.com.br — documentos e relatórios
+· E-mail: contato@lummeagencia.com.br — documentos e relatórios
+· Site: www.lummeagencia.com.br
 · Horário de atendimento: Segunda a sexta, 9h–18h
 
 Que venha o fluxo.
@@ -192,7 +193,7 @@ preparar o kickoff.
 
 | Item | Tempo |
 |------|-------|
-| Boas-vindas e apresentação da metodologia Lummé | 10 min |
+| Boas-vindas e apresentação do Método Eixo — Diagnóstico, Construção, Ativação | 10 min |
 | Revisão do briefing — validação e aprofundamento | 20 min |
 | Definição de KPIs e metas do trimestre | 15 min |
 | Apresentação do calendário do mês 1 (rascunho) | 10 min |
@@ -271,7 +272,7 @@ Para iniciarmos as entregas, preciso dos seguintes acessos:
 [Listar os acessos necessários]
 
 Para o Instagram: vá em Configurações → Meta Business Suite →
-Usuários → Adicionar → [e-mail@lumme.com.br] → Papel: Admin.
+Usuários → Adicionar → contato@lummeagencia.com.br → Papel: Admin.
 
 Qualquer dificuldade, fazemos juntos por vídeo.
 
@@ -393,5 +394,7 @@ Quellem | Lummé
 
 ---
 
-*Lummé · Onboarding de Cliente v2.0 · Maio 2026*
+---
+
+*Lummé · MADU Gestão Empresarial LTDA · @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br · (27) 99884-5482*
 *Cada detalhe importa.*

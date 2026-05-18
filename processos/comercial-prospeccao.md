@@ -9,6 +9,8 @@
 
 ## VISÃO DO SETOR
 
+A Lummé não entrega posts. Entrega posicionamento. Nossa prospecção parte desse diferencial.
+
 O setor Comercial é onde a receita nasce. É o processo que transforma o prospect certo na proposta certa, no momento certo. A Lummé não vende para qualquer um — vende para quem entende que resultado merece investimento.
 
 **Entregáveis do setor:**
@@ -71,7 +73,7 @@ Antes de qualquer abordagem, qualificar o prospect:
 |-------|----------|-------------|
 | Advogados e escritórios de advocacia | Alto | R$ 2.500–4.500 |
 | Arquitetos e designers de interiores | Alto | R$ 2.000–3.500 |
-| Médicos e clínicas premium | Muito alto | R$ 3.500–6.000 |
+| Médicos e clínicas premium | Muito alto | R$ 3.500–8.000 |
 | Psicólogos e terapeutas | Médio | R$ 1.800–3.000 |
 | Clínicas de estética avançada | Alto | R$ 2.500–5.000 |
 | Consultores e coaches de alto padrão | Alto | R$ 2.500–4.500 |
@@ -111,15 +113,17 @@ Antes de qualquer abordagem, qualificar o prospect:
 ```
 Oi, [Nome]! Tudo bem?
 
-Me chamo Quellem, sou fundadora da Lummé — somos uma agência especializada
-em [branding/social media/marketing] para [segmento do prospect].
+Me chamo Quellem, sou fundadora da Lummé — especialistas em posicionamento
+e diagnóstico de presença digital para [segmento do prospect].
 
 Vi seu perfil no [Instagram/LinkedIn] e percebi [observação específica
-sobre o negócio ou oportunidade].
+sobre o negócio ou oportunidade de posicionamento].
 
-Trabalho com [resultado específico que a Lummé entrega para esse nicho].
+Trabalho com o Método Eixo — Diagnóstico, Construção, Ativação — para
+profissionais que têm autoridade técnica mas presença digital que não
+reflete esse nível.
 
-Faz sentido a gente trocar uma ideia? Tenho uma percepção sobre o
+Faz sentido a gente trocar uma ideia? Tenho um diagnóstico sobre o
 posicionamento da [nome da empresa] que pode ser relevante pra você.
 ```
 
@@ -147,8 +151,8 @@ Teria 20 minutos essa semana para uma conversa sem compromisso?
 Oi, [Nome]!
 
 Me chamo Quellem, da Lummé Agência Criativa. Trabalhamos com
-posicionamento e conteúdo para arquitetos e designers que querem
-transformar o Instagram num portfólio que atrai projetos de alto padrão.
+posicionamento e diagnóstico de presença digital para arquitetos e
+designers que querem que o digital reflita o padrão do que entregam.
 
 Vi o seu trabalho e o potencial é claro — mas a presença digital
 ainda não reflete o nível do que você entrega.
@@ -344,6 +348,31 @@ Obrigada pela atenção!
 
 ---
 
+## 8B. MÉTODO EIXO — ARGUMENTO DE VENDA
+
+O Método Eixo é o framework central da Lummé e deve estar presente no processo comercial como diferencial verificável.
+
+| Etapa | O que é | O que entregamos |
+|-------|---------|-----------------|
+| **Diagnóstico** | Mapeamento de percepção atual, gaps e oportunidades | Mapa de Percepção (documento com scorecard e recomendações) |
+| **Construção** | Definição do posicionamento estratégico e identidade | Positioning Doc — voz, tom, diferenciais, ICP |
+| **Ativação** | Execução do posicionamento nos canais certos | Plano de Ativação + Primeiras Peças |
+
+**Como usar no argumento de venda:**
+
+```
+"Nós não começamos produzindo conteúdo. Começamos com diagnóstico.
+Primeiro entendemos como sua marca é percebida hoje — e onde está
+o gap entre o que você entrega e como aparece no digital.
+
+A partir desse diagnóstico, construímos o posicionamento certo para
+o seu momento. Só então ativamos nos canais — com método, não com volume.
+
+É o Método Eixo: Diagnóstico → Construção → Ativação."
+```
+
+---
+
 ## 9. MÉTRICAS DO SETOR COMERCIAL
 
 | Métrica | Meta mensal |
@@ -355,11 +384,13 @@ Obrigada pela atenção!
 | Propostas enviadas | ≥ 8 |
 | Contratos fechados | 3–5 |
 | Taxa de conversão (reunião → contrato) | ≥ 30% |
-| Ticket médio | ≥ R$ 3.000 |
+| Ticket médio | R$ 3.500–8.000 |
 | MRR novo gerado | ≥ R$ 9.000 |
 | Tempo médio de fechamento | ≤ 21 dias |
 
 ---
 
-*Lummé · Processo: Comercial & Prospecção v1.0 · Maio 2026*
+---
+
+*Lummé · MADU Gestão Empresarial LTDA · @lummeagenciacriativa · contato@lummeagencia.com.br · www.lummeagencia.com.br · (27) 99884-5482*
 *Cada detalhe importa.*

@@ -219,7 +219,7 @@ Se ao final do primeiro mês de contrato você não perceber valor claro na estr
 ```
 Lummé — Casa Criativa Premium
 Lummé — Gestao e Marketing LTDA  |  CNPJ: 65.723.134/0001-86
-contato@lumme.com.br  |  (27) 99884-5482  |  @lummeagencia
+contato@lummeagenciacriativa.com.br  |  (27) 99884-5482  |  @lummeagenciacriativa
 
 Luz estrategica para marcas de alto padrao.
 ```

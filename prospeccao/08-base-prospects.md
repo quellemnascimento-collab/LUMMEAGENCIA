@@ -183,7 +183,7 @@ Em 15 minutos, mostro exatamente o que está impedindo o seu digital de trabalha
 [Link do Calendly]
 
 Márcia Quellem
-Lummé | contato@lumme.com.br | (27) 99884-5482
+Lummé | contato@lummeagenciacriativa.com.br | (27) 99884-5482
 ```
 
 ---

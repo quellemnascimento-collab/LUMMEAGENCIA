@@ -67,7 +67,7 @@ Tabela: Acesso | Status | Responsável
 Incluir: Instagram Business, Facebook Business Manager, Google Analytics, Domínio/hospedagem, Meta Ads, Google Ads, Banco de fotos/vídeos
 
 ## Rodapé
-`Lummé · Cada detalhe importa. · @lumme.agencia · contato@lumme.com.br`
+`Lummé · Cada detalhe importa. · @lummeagenciacriativa · contato@lummeagencia.com.br`
 
 ---
 
