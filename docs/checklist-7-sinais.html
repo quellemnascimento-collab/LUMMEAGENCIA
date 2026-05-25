@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>7 Sinais — Quellem | Lummé</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --purple:    #7C3AED;
+      --purple-lt: #A78BFA;
+      --dark:      #0A0A0F;
+      --dark-2:    #13111C;
+      --dark-3:    #1C1828;
+      --border:    rgba(124,58,237,0.25);
+      --white:     #FFFFFF;
+      --gray:      #9CA3AF;
+      --gray-lt:   #E5E7EB;
+      --gold:      #D4A853;
+    }
+
+    html, body {
+      background: var(--dark);
+      color: var(--white);
+      font-family: 'Inter', sans-serif;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* ── PAGE WRAPPER ── */
+    .page {
+      width: 794px;
+      min-height: 1123px;
+      margin: 0 auto;
+      background: var(--dark);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* ── DECORATIVE BLOBS ── */
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.18;
+      pointer-events: none;
+    }
+    .blob-1 { width: 380px; height: 380px; background: var(--purple); top: -120px; right: -80px; }
+    .blob-2 { width: 260px; height: 260px; background: #2D1B69; bottom: 80px; left: -60px; }
+    .blob-3 { width: 180px; height: 180px; background: var(--gold); top: 420px; right: 60px; opacity: 0.1; }
+
+    /* ── HEADER ── */
+    .header {
+      padding: 48px 52px 32px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    .header-badge {
+      display: inline-block;
+      background: rgba(124,58,237,0.15);
+      border: 1px solid var(--border);
+      color: var(--purple-lt);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    .header-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+    .header-title span {
+      color: var(--purple-lt);
+      font-style: italic;
+    }
+    .header-sub {
+      font-size: 15px;
+      color: var(--gray);
+      font-weight: 400;
+      line-height: 1.6;
+      max-width: 480px;
+    }
+    .header-logo {
+      position: absolute;
+      top: 48px;
+      right: 52px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--purple-lt);
+      text-transform: uppercase;
+    }
+    .header-logo span {
+      display: block;
+      font-size: 9px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      color: var(--gray);
+      margin-top: 3px;
+      text-transform: uppercase;
+    }
+
+    /* ── INTRO CALLOUT ── */
+    .intro-callout {
+      margin: 28px 52px;
+      background: var(--dark-3);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--purple);
+      border-radius: 10px;
+      padding: 18px 22px;
+      font-size: 13.5px;
+      color: var(--gray-lt);
+      line-height: 1.7;
+    }
+    .intro-callout strong { color: var(--white); }
+
+    /* ── SIGNALS GRID ── */
+    .signals {
+      padding: 8px 52px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .signal-card {
+      background: var(--dark-2);
+      border: 1px solid rgba(124,58,237,0.15);
+      border-radius: 12px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .signal-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: linear-gradient(180deg, var(--purple), transparent);
+      border-radius: 12px 0 0 12px;
+    }
+
+    .signal-num {
+      min-width: 36px;
+      height: 36px;
+      background: rgba(124,58,237,0.15);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--purple-lt);
+      letter-spacing: 0.5px;
+    }
+
+    .signal-icon {
+      font-size: 22px;
+      line-height: 1;
+      margin-top: 6px;
+    }
+
+    .signal-body { flex: 1; }
+    .signal-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .signal-desc {
+      font-size: 12.5px;
+      color: var(--gray);
+      line-height: 1.6;
+    }
+    .signal-desc strong { color: var(--gray-lt); }
+
+    .signal-check {
+      width: 22px;
+      height: 22px;
+      border: 2px solid rgba(124,58,237,0.4);
+      border-radius: 5px;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    /* ── SCORE SECTION ── */
+    .score-section {
+      margin: 0 52px;
+      background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(45,27,105,0.3));
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 28px;
+    }
+    .score-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--purple-lt);
+      margin-bottom: 16px;
+    }
+    .score-rows { display: flex; flex-direction: column; gap: 10px; }
+    .score-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 10px 16px;
+      background: rgba(0,0,0,0.25);
+      border-radius: 8px;
+    }
+    .score-badge {
+      font-size: 16px;
+      font-weight: 900;
+      min-width: 36px;
+      text-align: center;
+    }
+    .score-badge.green  { color: #34D399; }
+    .score-badge.yellow { color: #FBBF24; }
+    .score-badge.red    { color: #F87171; }
+    .score-text {
+      font-size: 12.5px;
+      color: var(--gray-lt);
+      line-height: 1.5;
+    }
+    .score-text strong { color: var(--white); }
+
+    /* ── CTA FOOTER ── */
+    .cta-footer {
+      margin: 24px 52px 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 22px 28px;
+      background: var(--dark-3);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    .cta-avatar {
+      width: 52px;
+      height: 52px;
+      background: linear-gradient(135deg, var(--purple), #2D1B69);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .cta-text { flex: 1; }
+    .cta-headline {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 3px;
+    }
+    .cta-sub {
+      font-size: 12px;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+    .cta-button {
+      background: var(--purple);
+      color: var(--white);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: 8px;
+      white-space: nowrap;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── BOTTOM BAR ── */
+    .bottom-bar {
+      margin-top: 28px;
+      padding: 16px 52px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .bottom-brand {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--purple-lt);
+    }
+    .bottom-url {
+      font-size: 11px;
+      color: var(--gray);
+    }
+    .bottom-copy {
+      font-size: 10px;
+      color: rgba(156,163,175,0.5);
+    }
+
+    /* ── PRINT ── */
+    @media print {
+      body { background: var(--dark); }
+      .page { width: 100%; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-logo">
+      Lummé
+      <span>Estratégia Digital</span>
+    </div>
+    <div class="header-badge">Diagnóstico Gratuito</div>
+    <h1 class="header-title">
+      7 Sinais que seu perfil<br>está <span>afastando</span> cliente
+    </h1>
+    <p class="header-sub">
+      Se você marcou 3 ou mais desses sinais, seu perfil está trabalhando <em>contra</em> você — mesmo que você poste todo dia.
+    </p>
+  </div>
+
+  <!-- Intro callout -->
+  <div class="intro-callout">
+    <strong>Como usar:</strong> Leia cada sinal e marque o checkbox à direita se ele se aplica ao seu perfil.
+    Seja honesta — o diagnóstico só funciona com sinceridade.
+  </div>
+
+  <!-- Signals -->
+  <div class="signals">
+
+    <div class="signal-card">
+      <div class="signal-num">01</div>
+      <div class="signal-body">
+        <div class="signal-title">Bio sem CTA — o visitante não sabe o que fazer</div>
+        <div class="signal-desc">
+          Você tem 3 segundos. Se a bio não diz <strong>quem você atende, qual problema resolve e qual passo dar agora</strong>,
+          o visitante vai embora sem seguir, sem clicar, sem voltar.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+    <div class="signal-card">
+      <div class="signal-num">02</div>
+      <div class="signal-body">
+        <div class="signal-title">Feed sem identidade — parece amador</div>
+        <div class="signal-desc">
+          Identidade não é paleta de cor bonita. É <strong>coerência entre o que você faz e como o perfil parece</strong>.
+          Um feed sem lógica visual comunica falta de profissionalismo antes de você dizer qualquer coisa.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+    <div class="signal-card">
+      <div class="signal-num">03</div>
+      <div class="signal-body">
+        <div class="signal-title">Sem prova social visível — o cliente não confia</div>
+        <div class="signal-desc">
+          Resultado vende mais do que copy. Se o seu perfil não tem <strong>depoimentos, cases ou números reais em destaque</strong>,
+          você está pedindo que o cliente confie em você sem razão objetiva para isso.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+    <div class="signal-card">
+      <div class="signal-num">04</div>
+      <div class="signal-body">
+        <div class="signal-title">Posting sem estratégia — conteúdo sem função</div>
+        <div class="signal-desc">
+          Cada post deve cumprir um papel: <strong>atrair, engajar ou converter</strong>. Se você não sabe qual função
+          aquele conteúdo tem antes de publicar, ele provavelmente não tem nenhuma.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+    <div class="signal-card">
+      <div class="signal-num">05</div>
+      <div class="signal-body">
+        <div class="signal-title">Sem nicho claro — fala pra todo mundo, não vende pra ninguém</div>
+        <div class="signal-desc">
+          Quanto mais específico for o avatar que você fala, <strong>mais a pessoa certa se sente vista</strong>.
+          "Quem tem negócio" é metade do Brasil. Isso dilui atenção, reduz engajamento e afasta o cliente ideal.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+    <div class="signal-card">
+      <div class="signal-num">06</div>
+      <div class="signal-body">
+        <div class="signal-title">Link na bio morto ou genérico — perde lead todo dia</div>
+        <div class="signal-desc">
+          O link na bio é o único clique que o Instagram permite. Se ele leva para um site genérico, sem CTA,
+          sem captura — você está <strong>descartando leads todos os dias sem perceber</strong>.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+    <div class="signal-card">
+      <div class="signal-num">07</div>
+      <div class="signal-body">
+        <div class="signal-title">Sem posicionamento de preço — compete por preço, não por valor</div>
+        <div class="signal-desc">
+          Quando o cliente não percebe diferença entre você e o concorrente, ele escolhe pelo preço.
+          <strong>Posicionamento claro elimina a comparação</strong> — e permite cobrar pelo valor, não pela hora.
+        </div>
+      </div>
+      <div class="signal-check"></div>
+    </div>
+
+  </div>
+
+  <!-- Score -->
+  <div class="score-section">
+    <div class="score-title">Sua pontuação</div>
+    <div class="score-rows">
+      <div class="score-row">
+        <div class="score-badge green">0–2</div>
+        <div class="score-text"><strong>Perfil sólido.</strong> Há pontos a refinar, mas a base está construída. Foco em escalar o que já funciona.</div>
+      </div>
+      <div class="score-row">
+        <div class="score-badge yellow">3–4</div>
+        <div class="score-text"><strong>Atenção.</strong> Seu perfil tem alcance, mas perde cliente na jornada. É possível corrigir em 2 semanas com direção certa.</div>
+      </div>
+      <div class="score-row">
+        <div class="score-badge red">5–7</div>
+        <div class="score-text"><strong>Urgente.</strong> Seu perfil está trabalhando ativamente contra você. Cada dia sem correção é cliente que vai embora sem voltar.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Footer -->
+  <div class="cta-footer">
+    <div class="cta-avatar">✦</div>
+    <div class="cta-text">
+      <div class="cta-headline">Quer uma análise personalizada do seu perfil?</div>
+      <div class="cta-sub">Me manda DM no Instagram com a palavra <strong>DIAGNÓSTICO</strong> e eu analiso o seu perfil de graça.</div>
+    </div>
+    <div class="cta-button">@quellnodigital</div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="bottom-bar">
+    <div class="bottom-brand">Lummé Agência</div>
+    <div class="bottom-url">lummeagencia.com.br</div>
+    <div class="bottom-copy">© 2026 · Todos os direitos reservados</div>
+  </div>
+
+</div>
+</body>
+</html>
