@@ -188,13 +188,97 @@
     }
     .signal-desc strong { color: var(--gray-lt); }
 
-    .signal-check {
-      width: 22px;
-      height: 22px;
+    /* hidden native checkbox */
+    .signal-check-input {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .signal-check-label {
+      width: 26px;
+      height: 26px;
       border: 2px solid rgba(124,58,237,0.4);
-      border-radius: 5px;
-      margin-top: 7px;
+      border-radius: 6px;
+      margin-top: 5px;
       flex-shrink: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.18s, border-color 0.18s;
+      position: relative;
+    }
+    .signal-check-label::after {
+      content: '';
+      display: block;
+      width: 6px;
+      height: 11px;
+      border: 2.5px solid transparent;
+      border-top: none;
+      border-left: none;
+      transform: rotate(45deg) translate(-1px, -1px);
+      transition: border-color 0.15s;
+    }
+    .signal-check-input:checked + .signal-check-label {
+      background: var(--purple);
+      border-color: var(--purple);
+    }
+    .signal-check-input:checked + .signal-check-label::after {
+      border-color: #fff;
+    }
+    /* highlight checked card */
+    .signal-card:has(.signal-check-input:checked) {
+      border-color: rgba(124,58,237,0.45);
+      background: rgba(124,58,237,0.08);
+    }
+
+    /* ── LIVE SCORE BAR ── */
+    .score-live {
+      margin: 18px 52px 0;
+      padding: 16px 24px;
+      background: var(--dark-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .score-live-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gray);
+      white-space: nowrap;
+    }
+    .score-live-bar-wrap {
+      flex: 1;
+      height: 8px;
+      background: rgba(255,255,255,0.07);
+      border-radius: 100px;
+      overflow: hidden;
+    }
+    .score-live-bar {
+      height: 100%;
+      width: 0%;
+      border-radius: 100px;
+      background: var(--purple);
+      transition: width 0.35s ease, background 0.35s ease;
+    }
+    .score-live-count {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--white);
+      min-width: 48px;
+      text-align: right;
+      transition: color 0.3s;
+    }
+    .score-live-verdict {
+      font-size: 11.5px;
+      color: var(--gray);
+      min-width: 140px;
+      transition: color 0.3s;
     }
 
     /* ── SCORE SECTION ── */
@@ -407,7 +491,8 @@
           o visitante vai embora sem seguir, sem clicar, sem voltar.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s1">
+      <label class="signal-check-label" for="s1"></label>
     </div>
 
     <div class="signal-card">
@@ -419,7 +504,8 @@
           Um feed sem lógica visual comunica falta de profissionalismo antes de você dizer qualquer coisa.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s2">
+      <label class="signal-check-label" for="s2"></label>
     </div>
 
     <div class="signal-card">
@@ -431,7 +517,8 @@
           você está pedindo que o cliente confie em você sem razão objetiva para isso.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s3">
+      <label class="signal-check-label" for="s3"></label>
     </div>
 
     <div class="signal-card">
@@ -443,7 +530,8 @@
           aquele conteúdo tem antes de publicar, ele provavelmente não tem nenhuma.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s4">
+      <label class="signal-check-label" for="s4"></label>
     </div>
 
     <div class="signal-card">
@@ -455,7 +543,8 @@
           "Quem tem negócio" é metade do Brasil. Isso dilui atenção, reduz engajamento e afasta o cliente ideal.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s5">
+      <label class="signal-check-label" for="s5"></label>
     </div>
 
     <div class="signal-card">
@@ -467,7 +556,8 @@
           sem captura — você está <strong>descartando leads todos os dias sem perceber</strong>.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s6">
+      <label class="signal-check-label" for="s6"></label>
     </div>
 
     <div class="signal-card">
@@ -479,9 +569,20 @@
           <strong>Posicionamento claro elimina a comparação</strong> — e permite cobrar pelo valor, não pela hora.
         </div>
       </div>
-      <div class="signal-check"></div>
+      <input class="signal-check-input" type="checkbox" id="s7">
+      <label class="signal-check-label" for="s7"></label>
     </div>
 
+  </div>
+
+  <!-- Live Score Bar -->
+  <div class="score-live">
+    <div class="score-live-label">Minha pontuação</div>
+    <div class="score-live-bar-wrap">
+      <div class="score-live-bar" id="liveBar"></div>
+    </div>
+    <div class="score-live-count" id="liveCount">0 / 7</div>
+    <div class="score-live-verdict" id="liveVerdict">Marque os sinais acima</div>
   </div>
 
   <!-- Score -->
@@ -559,5 +660,33 @@
   </div>
 
 </div>
+
+<script>
+  const checkboxes = document.querySelectorAll('.signal-check-input');
+  const bar        = document.getElementById('liveBar');
+  const count      = document.getElementById('liveCount');
+  const verdict    = document.getElementById('liveVerdict');
+
+  const verdicts = [
+    { max: 2, text: 'Perfil sólido — foco em escalar',   color: '#34D399', barColor: '#34D399' },
+    { max: 4, text: 'Atenção — corrija antes de investir', color: '#FBBF24', barColor: '#FBBF24' },
+    { max: 7, text: 'Urgente — perfil trabalhando contra você', color: '#F87171', barColor: '#F87171' },
+  ];
+
+  function update() {
+    const total = [...checkboxes].filter(c => c.checked).length;
+    const pct   = (total / 7) * 100;
+    const v     = verdicts.find(v => total <= v.max);
+
+    bar.style.width      = pct + '%';
+    bar.style.background = v.barColor;
+    count.textContent    = total + ' / 7';
+    count.style.color    = total === 0 ? '#fff' : v.barColor;
+    verdict.textContent  = total === 0 ? 'Marque os sinais acima' : v.text;
+    verdict.style.color  = total === 0 ? '#9CA3AF' : v.barColor;
+  }
+
+  checkboxes.forEach(cb => cb.addEventListener('change', update));
+</script>
 </body>
 </html>
