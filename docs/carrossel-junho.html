@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Pautas Quentes de Junho — @quellnodigital</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Inter:wght@400;600;700;900&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+:root{
+  --rosa:     #F2C4D0;
+  --rosa2:    #E8A8BE;
+  --lilas:    #D4B0D8;
+  --roxo:     #3B1A78;
+  --roxo2:    #5E3A9E;
+  --roxo-lt:  #7B5EA7;
+  --branco:   #FFFAF8;
+  --creme:    #FDE8EF;
+}
+
+body{
+  background:#1a0a2e;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-family:'Inter',sans-serif;
+  min-height:100vh;
+  padding:24px 12px 48px;
+}
+
+/* ── SLIDER WRAPPER ── */
+.slider-wrap{
+  width:420px;
+  position:relative;
+}
+
+.slider{
+  width:420px;
+  height:560px;
+  overflow:hidden;
+  border-radius:20px;
+  box-shadow:0 30px 80px rgba(0,0,0,0.6);
+  position:relative;
+}
+
+/* ── SLIDES ── */
+.slide{
+  width:420px;
+  height:560px;
+  position:absolute;
+  top:0;left:0;
+  opacity:0;
+  transition:opacity .45s ease;
+  pointer-events:none;
+  overflow:hidden;
+}
+.slide.active{
+  opacity:1;
+  pointer-events:all;
+}
+
+/* ═══════════════════════════════
+   SLIDE 1 — CAPA
+═══════════════════════════════ */
+.s1{
+  background: radial-gradient(ellipse at 70% 30%, #e8b4c8 0%, #dba0c0 40%, #c890b8 100%);
+}
+.s1 .bg-dots{
+  position:absolute;inset:0;
+  background-image: radial-gradient(circle, rgba(59,26,120,0.12) 1.5px, transparent 1.5px);
+  background-size:18px 18px;
+}
+.s1 .blob-top{
+  position:absolute;top:-40px;right:-40px;
+  width:220px;height:220px;
+  background:rgba(214,170,220,0.5);
+  border-radius:50%;filter:blur(40px);
+}
+/* bandeirinhas SVG */
+.banners{
+  position:absolute;top:0;left:0;right:0;
+  display:flex;justify-content:space-around;
+  align-items:flex-start;
+  padding:0 10px;
+  z-index:3;
+}
+.banner-string{
+  position:absolute;top:14px;left:0;right:0;
+  height:2px;
+  background:rgba(59,26,120,0.3);
+}
+.flag{
+  width:22px;height:28px;
+  clip-path:polygon(0 0,100% 0,50% 100%);
+  position:relative;z-index:4;
+  margin-top:0px;
+}
+
+.s1 .foto-wrap{
+  position:absolute;bottom:0;right:10px;
+  width:220px;height:350px;
+  z-index:2;
+}
+.s1 .foto-halftone{
+  width:100%;height:100%;
+  background:
+    radial-gradient(circle, rgba(59,26,120,0.85) 1.2px, transparent 1.2px),
+    linear-gradient(180deg, transparent 0%, rgba(214,176,216,0.3) 100%);
+  background-size:5px 5px, 100% 100%;
+  position:absolute;inset:0;z-index:1;
+  mix-blend-mode:multiply;
+}
+.s1 .nome{
+  position:absolute;bottom:56px;left:20px;
+  z-index:5;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:74px;
+  line-height:.92;
+  color:var(--roxo);
+  letter-spacing:2px;
+}
+.s1 .titulo-wrap{
+  position:absolute;top:54px;left:20px;
+  z-index:5;
+}
+.s1 .pautas-txt{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:54px;
+  line-height:1;
+  color:var(--roxo);
+  display:block;
+}
+.s1 .org-txt{
+  font-family:'Pacifico',cursive;
+  font-size:14px;
+  color:var(--roxo2);
+  letter-spacing:1px;
+  position:absolute;top:-8px;left:64px;
+  transform:rotate(-8deg);
+}
+.s1 .quentes-txt{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:54px;
+  color:var(--roxo);
+  line-height:1;
+}
+.s1 .tag-aquec{
+  display:inline-block;
+  margin-top:10px;
+  background:var(--roxo);
+  color:var(--creme);
+  font-size:11px;font-weight:700;
+  padding:5px 12px;border-radius:4px;
+  letter-spacing:.5px;
+}
+.s1 .brand{
+  position:absolute;bottom:16px;left:20px;
+  font-size:11px;font-weight:700;
+  color:var(--roxo);letter-spacing:1.5px;
+  z-index:6;
+}
+.s1 .metodo-tag{
+  position:absolute;bottom:16px;right:20px;
+  border:2px solid var(--roxo);
+  color:var(--roxo);
+  font-size:10px;font-weight:800;
+  padding:4px 10px;border-radius:3px;
+  letter-spacing:2px;text-transform:uppercase;
+  z-index:6;
+}
+.firework{
+  position:absolute;font-size:22px;z-index:4;opacity:.7;
+}
+
+/* ═══════════════════════════════
+   SLIDE 2 — DIA DOS NAMORADOS
+═══════════════════════════════ */
+.s2{
+  background:linear-gradient(145deg,#f7d4e0 0%,#ebbdd0 50%,#d9a0c0 100%);
+}
+.s2 .bg-dots{
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle,rgba(59,26,120,.1) 1.5px,transparent 1.5px);
+  background-size:20px 20px;
+}
+.s2 .data-pill{
+  position:absolute;top:32px;left:50%;transform:translateX(-50%);
+  background:var(--roxo);
+  color:var(--creme);
+  font-size:11px;font-weight:800;
+  padding:6px 20px;border-radius:100px;
+  letter-spacing:2px;text-transform:uppercase;
+  z-index:5;white-space:nowrap;
+}
+.s2 .heart-big{
+  position:absolute;top:60px;right:30px;
+  font-size:60px;opacity:.3;z-index:2;
+}
+.s2 .number{
+  position:absolute;top:80px;left:24px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:130px;color:rgba(59,26,120,.12);
+  line-height:1;z-index:1;
+}
+.s2 .content{
+  position:absolute;top:130px;left:24px;right:24px;
+  z-index:5;
+}
+.s2 .eyebrow{
+  font-size:11px;font-weight:700;
+  letter-spacing:2.5px;text-transform:uppercase;
+  color:var(--roxo2);margin-bottom:10px;
+}
+.s2 .headline{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:46px;line-height:1.05;
+  color:var(--roxo);margin-bottom:16px;
+}
+.s2 .body-text{
+  font-size:13px;color:var(--roxo2);
+  line-height:1.65;
+}
+.s2 .insight-box{
+  margin-top:18px;
+  background:rgba(59,26,120,.12);
+  border-left:4px solid var(--roxo);
+  border-radius:0 8px 8px 0;
+  padding:12px 14px;
+}
+.s2 .insight-box p{
+  font-size:12.5px;color:var(--roxo);
+  line-height:1.5;font-weight:600;
+}
+.s2 .formato-row{
+  position:absolute;bottom:52px;left:24px;right:24px;
+  display:flex;gap:8px;z-index:5;
+}
+.formato-chip{
+  background:var(--roxo);color:var(--creme);
+  font-size:10px;font-weight:700;padding:5px 12px;
+  border-radius:100px;letter-spacing:.5px;
+}
+.s2 .brand{position:absolute;bottom:16px;left:24px;font-size:10px;font-weight:700;color:var(--roxo);letter-spacing:1.5px;z-index:6;}
+
+/* ═══════════════════════════════
+   SLIDE 3 — BASTIDORES
+═══════════════════════════════ */
+.s3{
+  background:linear-gradient(160deg,#e8d0ec 0%,#d4b8e0 60%,#c0a0d4 100%);
+}
+.s3 .bg-dots{
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle,rgba(59,26,120,.1) 1.5px,transparent 1.5px);
+  background-size:22px 22px;
+}
+.s3 .data-pill{
+  position:absolute;top:32px;left:50%;transform:translateX(-50%);
+  background:var(--roxo);color:var(--creme);
+  font-size:11px;font-weight:800;padding:6px 20px;border-radius:100px;
+  letter-spacing:2px;text-transform:uppercase;z-index:5;white-space:nowrap;
+}
+.s3 .number{
+  position:absolute;top:80px;left:24px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:130px;color:rgba(59,26,120,.12);line-height:1;z-index:1;
+}
+.s3 .content{position:absolute;top:130px;left:24px;right:24px;z-index:5;}
+.s3 .eyebrow{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--roxo2);margin-bottom:10px;}
+.s3 .headline{font-family:'Bebas Neue',sans-serif;font-size:44px;line-height:1.05;color:var(--roxo);margin-bottom:16px;}
+.s3 .body-text{font-size:13px;color:var(--roxo2);line-height:1.65;}
+.step-list{margin-top:16px;display:flex;flex-direction:column;gap:10px;}
+.step-item{
+  display:flex;align-items:flex-start;gap:10px;
+  background:rgba(59,26,120,.1);border-radius:8px;padding:10px 12px;
+}
+.step-num{
+  min-width:24px;height:24px;background:var(--roxo);color:var(--creme);
+  font-size:11px;font-weight:900;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.step-txt{font-size:12px;color:var(--roxo);line-height:1.5;font-weight:600;}
+.s3 .brand{position:absolute;bottom:16px;left:24px;font-size:10px;font-weight:700;color:var(--roxo);letter-spacing:1.5px;z-index:6;}
+
+/* ═══════════════════════════════
+   SLIDE 4 — FESTA JUNINA
+═══════════════════════════════ */
+.s4{
+  background:linear-gradient(150deg,#f5d0a0 0%,#f0b878 40%,#e8a060 100%);
+}
+.s4 .bg-check{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(59,26,120,.06) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(59,26,120,.06) 1px,transparent 1px);
+  background-size:30px 30px;
+}
+.s4 .data-pill{
+  position:absolute;top:32px;left:50%;transform:translateX(-50%);
+  background:var(--roxo);color:var(--creme);
+  font-size:11px;font-weight:800;padding:6px 20px;border-radius:100px;
+  letter-spacing:2px;text-transform:uppercase;z-index:5;white-space:nowrap;
+}
+.s4 .number{
+  position:absolute;top:80px;left:24px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:130px;color:rgba(59,26,120,.1);line-height:1;z-index:1;
+}
+.s4 .content{position:absolute;top:130px;left:24px;right:24px;z-index:5;}
+.s4 .eyebrow{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--roxo);opacity:.7;margin-bottom:10px;}
+.s4 .headline{font-family:'Bebas Neue',sans-serif;font-size:44px;line-height:1.05;color:var(--roxo);margin-bottom:16px;}
+.s4 .body-text{font-size:13px;color:var(--roxo);opacity:.85;line-height:1.65;}
+.s4 .cards-row{margin-top:16px;display:flex;gap:8px;}
+.mini-card{
+  flex:1;background:rgba(59,26,120,.12);border-radius:10px;
+  padding:12px 10px;text-align:center;
+}
+.mini-card .mc-icon{font-size:22px;margin-bottom:6px;}
+.mini-card .mc-title{font-size:11px;font-weight:800;color:var(--roxo);margin-bottom:3px;}
+.mini-card .mc-desc{font-size:10px;color:var(--roxo);opacity:.75;line-height:1.4;}
+.s4 .brand{position:absolute;bottom:16px;left:24px;font-size:10px;font-weight:700;color:var(--roxo);letter-spacing:1.5px;z-index:6;}
+
+/* ═══════════════════════════════
+   SLIDE 5 — REVISÃO SEMESTRAL
+═══════════════════════════════ */
+.s5{
+  background:linear-gradient(150deg,#c8d8f0 0%,#b0c4e8 50%,#98b0e0 100%);
+}
+.s5 .bg-dots{
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle,rgba(59,26,120,.1) 1.5px,transparent 1.5px);
+  background-size:20px 20px;
+}
+.s5 .data-pill{
+  position:absolute;top:32px;left:50%;transform:translateX(-50%);
+  background:var(--roxo);color:var(--creme);
+  font-size:11px;font-weight:800;padding:6px 20px;border-radius:100px;
+  letter-spacing:2px;text-transform:uppercase;z-index:5;white-space:nowrap;
+}
+.s5 .number{
+  position:absolute;top:80px;left:24px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:130px;color:rgba(59,26,120,.1);line-height:1;z-index:1;
+}
+.s5 .content{position:absolute;top:130px;left:24px;right:24px;z-index:5;}
+.s5 .eyebrow{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--roxo2);margin-bottom:10px;}
+.s5 .headline{font-family:'Bebas Neue',sans-serif;font-size:44px;line-height:1.05;color:var(--roxo);margin-bottom:16px;}
+.s5 .body-text{font-size:13px;color:var(--roxo2);line-height:1.65;}
+.perguntas{margin-top:16px;display:flex;flex-direction:column;gap:8px;}
+.perg-item{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 12px;
+  background:rgba(59,26,120,.1);border-radius:8px;
+}
+.perg-icon{font-size:16px;flex-shrink:0;}
+.perg-txt{font-size:12px;font-weight:600;color:var(--roxo);line-height:1.4;}
+.s5 .brand{position:absolute;bottom:16px;left:24px;font-size:10px;font-weight:700;color:var(--roxo);letter-spacing:1.5px;z-index:6;}
+
+/* ═══════════════════════════════
+   SLIDE 6 — CALENDÁRIO SEMANAL
+═══════════════════════════════ */
+.s6{
+  background:linear-gradient(145deg,#f0c8d8 0%,#e0b0c8 60%,#d09ec0 100%);
+}
+.s6 .bg-dots{
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle,rgba(59,26,120,.1) 1.5px,transparent 1.5px);
+  background-size:18px 18px;
+}
+.s6 .title-wrap{
+  position:absolute;top:28px;left:24px;right:24px;z-index:5;
+}
+.s6 .cal-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:38px;color:var(--roxo);line-height:1;
+}
+.s6 .cal-sub{
+  font-size:11px;font-weight:600;color:var(--roxo2);
+  letter-spacing:1px;margin-top:3px;
+}
+.cal-grid{
+  position:absolute;top:90px;left:16px;right:16px;
+  display:flex;flex-direction:column;gap:7px;z-index:5;
+}
+.cal-row{
+  display:grid;
+  grid-template-columns:80px 1fr;
+  gap:8px;align-items:stretch;
+}
+.cal-day{
+  background:var(--roxo);color:var(--creme);
+  border-radius:8px;padding:8px 10px;
+  display:flex;flex-direction:column;justify-content:center;
+  align-items:center;
+}
+.cal-day .day-name{font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;opacity:.8;}
+.cal-day .day-date{font-family:'Bebas Neue',sans-serif;font-size:22px;line-height:1;}
+.cal-event{
+  background:rgba(255,255,255,.45);
+  border-radius:8px;padding:8px 12px;
+  display:flex;flex-direction:column;justify-content:center;
+}
+.cal-event .ev-tag{
+  display:inline-block;margin-bottom:3px;
+  font-size:8px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;
+  padding:2px 7px;border-radius:100px;
+}
+.ev-tag.reel{background:#3B1A78;color:#fff;}
+.ev-tag.carrossel{background:#E8A060;color:#fff;}
+.ev-tag.stories{background:#C890B8;color:#fff;}
+.ev-tag.especial{background:#E05878;color:#fff;}
+.cal-event .ev-title{font-size:11.5px;font-weight:700;color:var(--roxo);line-height:1.3;}
+.s6 .brand{position:absolute;bottom:14px;left:24px;font-size:10px;font-weight:700;color:var(--roxo);letter-spacing:1.5px;z-index:6;}
+
+/* ═══════════════════════════════
+   SLIDE 7 — CTA
+═══════════════════════════════ */
+.s7{
+  background:radial-gradient(ellipse at 30% 70%,#c890b8,#b070a8 40%,#3B1A78 100%);
+}
+.s7 .bg-dots{
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle,rgba(255,255,255,.08) 1.5px,transparent 1.5px);
+  background-size:18px 18px;
+}
+.s7 .star{position:absolute;font-size:18px;opacity:.4;}
+.s7 .cta-content{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  padding:32px;text-align:center;z-index:5;
+}
+.s7 .cta-badge{
+  background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
+  color:#fff;font-size:10px;font-weight:700;letter-spacing:2px;
+  text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:24px;
+}
+.s7 .cta-headline{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:52px;line-height:1.05;
+  color:#fff;margin-bottom:16px;
+}
+.s7 .cta-sub{
+  font-size:14px;color:rgba(255,255,255,.8);
+  line-height:1.6;margin-bottom:28px;
+  max-width:300px;
+}
+.s7 .btn-row{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.s7 .btn{
+  display:flex;align-items:center;gap:8px;
+  padding:12px 20px;border-radius:10px;
+  font-size:13px;font-weight:800;text-decoration:none;
+  letter-spacing:.3px;
+}
+.s7 .btn-wa{background:#25D366;color:#0a0a0f;}
+.s7 .btn-ig{background:linear-gradient(135deg,#833AB4,#C13584,#F77737);color:#fff;}
+.s7 .brand{
+  position:absolute;bottom:20px;left:50%;transform:translateX(-50%);
+  font-size:11px;font-weight:700;color:rgba(255,255,255,.5);
+  letter-spacing:2px;text-transform:uppercase;z-index:6;white-space:nowrap;
+}
+
+/* ── NAVIGATION ── */
+.nav{
+  display:flex;align-items:center;justify-content:space-between;
+  width:420px;margin-top:18px;
+}
+.nav-btn{
+  background:rgba(255,255,255,.12);border:none;color:#fff;
+  width:44px;height:44px;border-radius:50%;cursor:pointer;
+  font-size:18px;display:flex;align-items:center;justify-content:center;
+  transition:background .2s;
+}
+.nav-btn:hover{background:rgba(255,255,255,.22);}
+.nav-btn:disabled{opacity:.25;cursor:default;}
+.dots{display:flex;gap:8px;}
+.dot{
+  width:8px;height:8px;border-radius:50%;
+  background:rgba(255,255,255,.25);
+  transition:all .3s;cursor:pointer;
+}
+.dot.active{background:#fff;width:24px;border-radius:4px;}
+.slide-label{
+  color:rgba(255,255,255,.45);font-size:11px;
+  font-weight:600;letter-spacing:1px;margin-top:10px;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="slider-wrap">
+  <div class="slider" id="slider">
+
+    <!-- ══ SLIDE 1 — CAPA ══ -->
+    <div class="slide s1 active">
+      <div class="bg-dots"></div>
+      <div class="blob-top"></div>
+
+      <!-- Bandeirinhas -->
+      <div class="banners">
+        <div class="banner-string"></div>
+        <div class="flag" style="background:#C890B8;margin-top:4px;"></div>
+        <div class="flag" style="background:#3B1A78;margin-top:10px;"></div>
+        <div class="flag" style="background:#F2C4D0;margin-top:5px;"></div>
+        <div class="flag" style="background:#7B5EA7;margin-top:12px;"></div>
+        <div class="flag" style="background:#E8A8BE;margin-top:3px;"></div>
+        <div class="flag" style="background:#3B1A78;margin-top:8px;"></div>
+        <div class="flag" style="background:#C890B8;margin-top:14px;"></div>
+        <div class="flag" style="background:#F2C4D0;margin-top:6px;"></div>
+        <div class="flag" style="background:#7B5EA7;margin-top:10px;"></div>
+        <div class="flag" style="background:#3B1A78;margin-top:4px;"></div>
+        <div class="flag" style="background:#E8A8BE;margin-top:9px;"></div>
+        <div class="flag" style="background:#C890B8;margin-top:13px;"></div>
+      </div>
+
+      <!-- Fogos -->
+      <div class="firework" style="top:55px;right:28px;">✨</div>
+      <div class="firework" style="top:80px;left:16px;font-size:16px;">🎆</div>
+      <div class="firework" style="top:140px;right:14px;font-size:14px;">✨</div>
+
+      <!-- Florzinhas -->
+      <div style="position:absolute;bottom:140px;left:18px;font-size:28px;opacity:.4;z-index:3;">🌸</div>
+      <div style="position:absolute;bottom:200px;left:28px;font-size:18px;opacity:.3;z-index:3;">🌺</div>
+
+      <!-- Título -->
+      <div class="titulo-wrap">
+        <span class="org-txt">organização</span>
+        <span class="pautas-txt">Pautas</span>
+        <span class="quentes-txt">quentes</span>
+        <span class="tag-aquec">Aquecimento já começou!!</span>
+      </div>
+
+      <!-- JUNHO grande -->
+      <div class="nome">JU<br>NHO</div>
+
+      <!-- Foto simulada com halftone -->
+      <div class="foto-wrap">
+        <div style="
+          width:100%;height:100%;
+          background:radial-gradient(ellipse at 60% 30%,rgba(59,26,120,.7),rgba(90,40,130,.9));
+          position:absolute;inset:0;border-radius:20px 20px 0 0;
+        "></div>
+        <div class="foto-halftone"></div>
+        <!-- silhouette hint -->
+        <div style="
+          position:absolute;bottom:0;left:50%;transform:translateX(-50%);
+          width:140px;height:280px;
+          background:radial-gradient(ellipse at 50% 20%,rgba(59,26,120,.85),rgba(59,26,120,.95));
+          clip-path:polygon(30% 0%,70% 0%,85% 8%,90% 25%,88% 45%,80% 55%,75% 65%,72% 80%,68% 100%,32% 100%,28% 80%,25% 65%,20% 55%,12% 45%,10% 25%,15% 8%);
+        "></div>
+        <div style="
+          position:absolute;top:20px;left:50%;transform:translateX(-50%);
+          width:70px;height:70px;
+          background:rgba(59,26,120,.88);border-radius:50%;
+        "></div>
+      </div>
+
+      <div class="brand">@quellnodigital</div>
+      <div class="metodo-tag">MÉTODO</div>
+    </div>
+
+    <!-- ══ SLIDE 2 — DIA DOS NAMORADOS ══ -->
+    <div class="slide s2">
+      <div class="bg-dots"></div>
+      <div class="data-pill">12 de junho · Dia dos Namorados</div>
+      <div class="heart-big">💜</div>
+      <div class="number">02</div>
+      <div class="content">
+        <div class="eyebrow">Pauta quente #1</div>
+        <div class="headline">A marca<br>amada não<br>precisa gritar</div>
+        <div class="body-text">
+          Dia dos Namorados não é só para quem vende flores.<br><br>
+          É a data perfeita para falar de <strong>relacionamento com cliente</strong> — e por que marcas que geram emoção vendem sem precisar convencer.
+        </div>
+        <div class="insight-box">
+          <p>Quem compra por amor à marca não pesquisa concorrente. Essa é a diferença entre posicionamento e promoção.</p>
+        </div>
+      </div>
+      <div class="formato-row">
+        <span class="formato-chip">Reel 30s</span>
+        <span class="formato-chip">Carrossel</span>
+        <span class="formato-chip">Stories emocional</span>
+      </div>
+      <div class="brand">@quellnodigital</div>
+    </div>
+
+    <!-- ══ SLIDE 3 — BASTIDORES ══ -->
+    <div class="slide s3">
+      <div class="bg-dots"></div>
+      <div class="data-pill">Toda semana · Bastidores</div>
+      <div class="number">03</div>
+      <div class="content">
+        <div class="eyebrow">Pauta quente #2</div>
+        <div class="headline">Como planejo<br>uma semana de<br>conteúdo em 2h</div>
+        <div class="body-text">
+          Bastidores vendem mais do que você imagina — não pela rotina, mas pela <strong>organização que inspira confiança.</strong>
+        </div>
+        <div class="step-list">
+          <div class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-txt">Mapeio as datas quentes da semana (2 min)</div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-txt">Defino qual post atrai, engaja ou converte (5 min)</div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-txt">Escrevo todos os ganchos de uma vez (20 min)</div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">4</div>
+            <div class="step-txt">Gravo os Reels em sequência no mesmo dia (60 min)</div>
+          </div>
+        </div>
+      </div>
+      <div class="brand">@quellnodigital</div>
+    </div>
+
+    <!-- ══ SLIDE 4 — FESTA JUNINA ══ -->
+    <div class="slide s4">
+      <div class="bg-check"></div>
+      <div class="data-pill">13 a 29 de junho · Festa Junina</div>
+      <div class="number">04</div>
+      <div class="content">
+        <div class="eyebrow">Pauta quente #3</div>
+        <div class="headline">Sazonalidade<br>que conecta,<br>não que força</div>
+        <div class="body-text">
+          Toda data comemorativa é uma oportunidade de gerar <strong>identificação emocional</strong> — desde que o conteúdo seja sobre o cliente, não sobre a marca.
+        </div>
+        <div class="cards-row">
+          <div class="mini-card">
+            <div class="mc-icon">🌽</div>
+            <div class="mc-title">Conexão</div>
+            <div class="mc-desc">Use a nostalgia para humanizar a marca</div>
+          </div>
+          <div class="mini-card">
+            <div class="mc-icon">🎪</div>
+            <div class="mc-title">Bastidor</div>
+            <div class="mc-desc">Mostre sua celebração real, sem forçar</div>
+          </div>
+          <div class="mini-card">
+            <div class="mc-icon">🔥</div>
+            <div class="mc-title">Estratégia</div>
+            <div class="mc-desc">Como marcas usam datas para fidelizar</div>
+          </div>
+        </div>
+      </div>
+      <div class="brand">@quellnodigital</div>
+    </div>
+
+    <!-- ══ SLIDE 5 — REVISÃO SEMESTRAL ══ -->
+    <div class="slide s5">
+      <div class="bg-dots"></div>
+      <div class="data-pill">30 de junho · Fim do 1º semestre</div>
+      <div class="number">05</div>
+      <div class="content">
+        <div class="eyebrow">Pauta quente #4</div>
+        <div class="headline">Seu digital<br>cresceu ou só<br>ficou ocupado?</div>
+        <div class="body-text">
+          A virada do semestre é o momento perfeito para uma pergunta honesta sobre sua presença digital. E para liderar essa reflexão com o seu público.
+        </div>
+        <div class="perguntas">
+          <div class="perg-item">
+            <div class="perg-icon">📊</div>
+            <div class="perg-txt">Quantos clientes vieram do digital nesses 6 meses?</div>
+          </div>
+          <div class="perg-item">
+            <div class="perg-icon">🎯</div>
+            <div class="perg-txt">Seu conteúdo atraiu o cliente certo ou só curtida?</div>
+          </div>
+          <div class="perg-item">
+            <div class="perg-icon">💡</div>
+            <div class="perg-txt">O que muda no 2º semestre para ser diferente?</div>
+          </div>
+        </div>
+      </div>
+      <div class="brand">@quellnodigital</div>
+    </div>
+
+    <!-- ══ SLIDE 6 — CALENDÁRIO ══ -->
+    <div class="slide s6">
+      <div class="bg-dots"></div>
+      <div class="title-wrap">
+        <div class="cal-title">Calendário<br>editorial · Junho</div>
+        <div class="cal-sub">Semana estratégica completa</div>
+      </div>
+      <div class="cal-grid">
+        <div class="cal-row">
+          <div class="cal-day">
+            <div class="day-name">Seg</div>
+            <div class="day-date">02</div>
+          </div>
+          <div class="cal-event">
+            <span class="ev-tag carrossel">Carrossel</span>
+            <div class="ev-title">5 pautas quentes de junho e como usar cada uma</div>
+          </div>
+        </div>
+        <div class="cal-row">
+          <div class="cal-day">
+            <div class="day-name">Qua</div>
+            <div class="day-date">04</div>
+          </div>
+          <div class="cal-event">
+            <span class="ev-tag reel">Reel</span>
+            <div class="ev-title">Bastidores do planejamento de junho</div>
+          </div>
+        </div>
+        <div class="cal-row">
+          <div class="cal-day" style="background:#E05878;">
+            <div class="day-name">Qui</div>
+            <div class="day-date">12</div>
+          </div>
+          <div class="cal-event" style="background:rgba(224,88,120,.15);">
+            <span class="ev-tag especial">Especial</span>
+            <div class="ev-title">Dia dos Namorados — A marca que é amada não convence, atrai</div>
+          </div>
+        </div>
+        <div class="cal-row">
+          <div class="cal-day">
+            <div class="day-name">Seg</div>
+            <div class="day-date">16</div>
+          </div>
+          <div class="cal-event">
+            <span class="ev-tag reel">Reel</span>
+            <div class="ev-title">Como usar Festa Junina sem forçar a barra</div>
+          </div>
+        </div>
+        <div class="cal-row">
+          <div class="cal-day">
+            <div class="day-name">Seg</div>
+            <div class="day-date">30</div>
+          </div>
+          <div class="cal-event">
+            <span class="ev-tag carrossel">Carrossel</span>
+            <div class="ev-title">Revisão semestral — seu digital cresceu ou só ficou ocupado?</div>
+          </div>
+        </div>
+      </div>
+      <div class="brand">@quellnodigital</div>
+    </div>
+
+    <!-- ══ SLIDE 7 — CTA ══ -->
+    <div class="slide s7">
+      <div class="bg-dots"></div>
+      <div class="star" style="top:40px;left:30px;">✦</div>
+      <div class="star" style="top:80px;right:40px;font-size:12px;">✦</div>
+      <div class="star" style="bottom:120px;left:50px;font-size:14px;">✦</div>
+      <div class="star" style="bottom:80px;right:30px;">✦</div>
+
+      <div class="cta-content">
+        <div class="cta-badge">Diagnóstico gratuito</div>
+        <div class="cta-headline">Quer esse<br>planejamento<br>pro seu negócio?</div>
+        <div class="cta-sub">
+          Me manda a palavra <strong style="color:#fff;">JUNHO</strong> pelo canal que preferir — analiso sua presença e monto sua semana editorial de graça.
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-wa" href="https://wa.me/5527998845482?text=JUNHO" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+          <a class="btn btn-ig" href="https://ig.me/m/quellnodigital" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Direct
+          </a>
+        </div>
+      </div>
+      <div class="brand">@quellnodigital · lummeagencia.com.br</div>
+    </div>
+
+  </div><!-- /slider -->
+
+  <!-- Navigation -->
+  <div class="nav">
+    <button class="nav-btn" id="prev" onclick="changeSlide(-1)">‹</button>
+    <div class="dots" id="dots"></div>
+    <button class="nav-btn" id="next" onclick="changeSlide(1)">›</button>
+  </div>
+  <div class="slide-label" id="slideLabel">Slide 1 de 7</div>
+</div>
+
+<script>
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+const dotsEl = document.getElementById('dots');
+const label  = document.getElementById('slideLabel');
+const labels = [
+  'Capa — Pautas Quentes de Junho',
+  'Dia dos Namorados · 12 jun',
+  'Bastidores · toda semana',
+  'Festa Junina · 13–29 jun',
+  'Revisão Semestral · 30 jun',
+  'Calendário Editorial',
+  'CTA — Diagnóstico Gratuito',
+];
+
+// Build dots
+slides.forEach((_,i) => {
+  const d = document.createElement('div');
+  d.className = 'dot' + (i===0?' active':'');
+  d.onclick = () => goTo(i);
+  dotsEl.appendChild(d);
+});
+
+function goTo(n){
+  slides[current].classList.remove('active');
+  dotsEl.children[current].classList.remove('active');
+  current = (n + slides.length) % slides.length;
+  slides[current].classList.add('active');
+  dotsEl.children[current].classList.add('active');
+  label.textContent = `Slide ${current+1} de ${slides.length} · ${labels[current]}`;
+  document.getElementById('prev').disabled = current === 0;
+  document.getElementById('next').disabled = current === slides.length - 1;
+}
+
+function changeSlide(dir){ goTo(current + dir); }
+
+// keyboard
+document.addEventListener('keydown', e => {
+  if(e.key==='ArrowRight') changeSlide(1);
+  if(e.key==='ArrowLeft')  changeSlide(-1);
+});
+
+// touch/swipe
+let tx = 0;
+document.getElementById('slider').addEventListener('touchstart', e => tx = e.touches[0].clientX);
+document.getElementById('slider').addEventListener('touchend',   e => {
+  const dx = tx - e.changedTouches[0].clientX;
+  if(Math.abs(dx) > 40) changeSlide(dx > 0 ? 1 : -1);
+});
+
+goTo(0);
+</script>
+</body>
+</html>
