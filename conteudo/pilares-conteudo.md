@@ -11,6 +11,14 @@ O conteúdo do @lummeagencia não existe para entrar em todo conteúdo. Existe p
 2. Criar identificação (construir confiança)
 3. Chamar para uma ação (gerar conversão)
 
+### Ajuste de peso pós-diagnóstico do @quellnodigital (junho/2026)
+
+O diagnóstico do Método Eixo aplicado ao perfil pessoal (`docs/10-estrategia-perfil-quell-digital.md`) mostrou que o gargalo não é alcance — é **conversão de visualização em seguidor**. Isso muda o peso entre os pilares enquanto o eixo "sistema com gestão por trás" não estiver consolidado no perfil:
+
+- **Pilar 1 (IA na prática)** deixa de ser usado isolado — toda menção a IA precisa estar amarrada a gestão/resultado (ver ajuste abaixo). Reduz frequência temporariamente.
+- **Pilar 2 (Sistema vs. Improviso)** e **Pilar 4 (Resultado e Prova)** passam a ser os pilares dominantes — são os que sustentam a promessa "sistema de marketing com gestão por trás, não calendário de posts".
+- Pilares 3 e 5 mantêm frequência, mas todo conteúdo de bastidor (Pilar 3) deve reforçar o eixo "gestão", não apenas rotina pessoal solta.
+
 ---
 
 ## OS 5 PILARES DE CONTEÚDO
@@ -21,41 +29,42 @@ O conteúdo do @lummeagencia não existe para entrar em todo conteúdo. Existe p
 
 **Tom:** Pragmático, direto, com exemplos reais.
 
+> **Ajuste pós-diagnóstico:** nunca publicar IA como tema isolado ("3 prompts que uso") — todo post deste pilar precisa amarrar IA a gestão ou resultado (ex.: "uso IA para entregar relatório de gestão em metade do tempo", não "uso IA para criar posts"). Conteúdo de IA solto reforça a leitura de "dica de social media", que é o tipo de conteúdo que o diagnóstico identificou como ruído no algoritmo do perfil.
+
 **Formatos ideais:**
-- Reels mostrando o prompt em uso e o resultado
-- Carrossel "Como uso IA para [tarefa específica]"
+- Reels mostrando o prompt em uso e o resultado, sempre conectado a uma decisão de gestão/resultado
+- Carrossel "Como uso IA para [tarefa de gestão/estratégia]"
 - Stories com bastidor da IA em ação
 
 **Exemplos de temas:**
-- "Como uso o Claude para criar 30 posts em 1 hora"
-- "3 prompts de IA que uso toda semana para meus clientes"
-- "Antes e depois: copy sem IA x copy com IA"
-- "O erro que todo mundo comete ao usar IA para conteúdo"
-- "Como ensino meus clientes a usar IA para personalizar posts"
+- "Como uso IA para fechar o relatório mensal de um cliente em metade do tempo"
+- "O prompt que uso para decidir o que entra na pauta do mês — não pra escrever o post"
+- "Antes e depois: tempo de gestão sem IA x com IA"
+- "O erro que todo mundo comete ao tratar IA como atalho de conteúdo, não de sistema"
 
-**Frequência:** 1–2 posts/semana | 1 Reel/semana neste pilar
+**Frequência:** 1 post/semana — reduzido temporariamente até o eixo "sistema com gestão por trás" estar consolidado no perfil
 
 ---
 
-### PILAR 2 — PRESENÇA VS. RUÍDO
+### PILAR 2 — SISTEMA VS. IMPROVISO
 
-**Objetivo:** Mostrar que resultado vem de direção, não de volume. Posicionar a Lummé como curadoria estratégica.
+**Objetivo:** Mostrar que resultado vem de sistema, não de volume ou estética. Posicionar a Lummé/Quellem como gestão + método — pilar dominante pós-diagnóstico.
 
 **Tom:** Refinado, desafiador com elegância, orientado a valor percebido.
 
 **Formatos ideais:**
-- Carrossel comparando "presença com curadoria vs. produção sem direção"
+- Carrossel comparando "sistema com gestão por trás vs. calendário de posts"
 - Reels de "por que você posta todo dia e ainda depende de indicação"
 - Posts reflexivos sobre posicionamento
 
 **Exemplos de temas:**
-- "A diferença entre aparecer muito e aparecer bem"
+- "Você não precisa postar mais. Precisa de sistema."
+- "Por que seu Instagram parece bonito e não vende"
 - "O que seu digital diz sobre você antes de você dizer qualquer coisa"
-- "Presença premium não é sobre frequência — é sobre coerência"
 - "O que é o sistema dos 4 Layers (e por que muda tudo)"
 - "Conteúdo sem direção é ruído elegante"
 
-**Frequência:** 1–2 posts/semana
+**Frequência:** 2 posts/semana — pilar dominante na retomada
 
 ---
 
@@ -87,18 +96,20 @@ O conteúdo do @lummeagencia não existe para entrar em todo conteúdo. Existe p
 
 **Tom:** Factual, com dados reais. Nunca exagerado ou fabricado.
 
+> **Ajuste pós-diagnóstico:** ainda não há case de cliente publicável. Enquanto isso, a prova vem do **antes/depois do próprio @quellnodigital** — o diagnóstico documentado em `docs/10-estrategia-perfil-quell-digital.md` (967 visualizações, 0 seguidores novos, e o que mudou após as ações de prioridade 0). Quando o primeiro case de cliente existir, ele substitui/complementa esse conteúdo.
+
 **Formatos ideais:**
-- Carrossel "Antes e depois" com métricas
-- Post de depoimento (print + expansão da história)
-- Reel "Como a [empresa X] cresceu [Y]% com a Lummé"
+- Carrossel "Antes e depois" com métricas (do próprio perfil, por ora)
+- Post de depoimento (print + expansão da história) — quando houver
+- Reel "Como a [empresa X] cresceu [Y]% com a Lummé" — quando houver
 
 **Exemplos de temas:**
-- "Como a [profissional X] começou a atrair o cliente certo em 60 dias"
-- "[Número] consultas qualificadas em [X] meses — o que construímos diferente"
+- "967 visualizações, zero seguidores novos. Aqui está o que eu mudei e o resultado."
+- "Aplicei o Método Eixo no meu próprio perfil antes de oferecer pra você — esse é o relatório"
 - "O que mudou quando o digital começou a refletir o nível real do trabalho"
-- "Por que presença com curadoria vale mais do que alcance"
+- "Por que presença com sistema vale mais do que alcance"
 
-**Frequência:** 1–2 posts/mês (cresce conforme acumula casos)
+**Frequência:** 1–2 posts/semana enquanto for o antes/depois do próprio perfil — depois ajusta para 1–2 posts/mês conforme acumula casos de clientes
 
 ---
 
@@ -126,12 +137,14 @@ O conteúdo do @lummeagencia não existe para entrar em todo conteúdo. Existe p
 
 ## DISTRIBUIÇÃO SEMANAL RECOMENDADA
 
+> Distribuição ajustada pós-diagnóstico do @quellnodigital: Pilar 2 (Sistema vs. Improviso) e Pilar 4 (Resultado e Prova) dominantes; Pilar 1 (IA) reduzido e nunca isolado.
+
 | Dia | Tipo de conteúdo | Pilar | Formato |
 |-----|----------------|-------|---------|
-| **Segunda** | Post educativo estratégico | Pilar 5 | Carrossel |
-| **Terça** | Stories de bastidor | Pilar 3 | Stories |
-| **Quarta** | Reel de alcance | Pilar 1 ou 2 | Reel |
-| **Quinta** | Post LinkedIn (B2B) | Pilar 4 ou 5 | Texto + imagem |
+| **Segunda** | Post sistema vs. improviso | Pilar 2 | Carrossel |
+| **Terça** | Stories de bastidor (reforçando gestão) | Pilar 3 | Stories |
+| **Quarta** | Reel — sistema ou IA amarrada a resultado | Pilar 2 ou 1 | Reel |
+| **Quinta** | Post de prova/antes-depois (próprio perfil ou cliente) | Pilar 4 | Carrossel ou texto + imagem |
 | **Sexta** | Stories de prova social ou bastidor | Pilar 3 ou 4 | Stories |
 | **Diário** | Stories com sticker de interação | Qualquer | Stories |
 
