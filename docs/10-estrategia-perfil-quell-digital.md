@@ -144,6 +144,49 @@ Roteiro de gancho (sem listas genéricas, sem "dicas"):
 - Post 3: prova — case real de cliente com número
 - Post 4: oferta — Checklist 7 Sinais como porta de entrada
 
+### Roteiros dos 4 destaques (execução imediata)
+
+Realidade atual: não existe case de cliente publicável ainda nem o Checklist 7 Sinais pronto (produto Nível 0 da esteira ainda não foi produzido). Os roteiros abaixo trabalham com o que existe **hoje** — o próprio diagnóstico em andamento vira o primeiro material de prova, conforme já estava previsto na conexão com a esteira.
+
+**Destaque 1 — "Método"** (3–4 stories, gravação direta, sem edição complexa)
+1. "Toda marca tem um eixo: o ponto que sustenta tudo o que ela comunica. A maioria não sabe qual é o seu."
+2. "O Método Eixo tem 4 fases: Diagnóstico → Direção → Construção → Prova."
+3. "Antes de aplicar isso em qualquer cliente, apliquei no meu próprio perfil. Arrasta pro próximo destaque pra ver o que descobri."
+- Capa do destaque: texto estático "MÉTODO" sobre fundo da paleta (roxo/preto/bege)
+
+**Destaque 2 — "Bastidor"** (atualizar semanalmente, conteúdo real de rotina)
+1. "Hoje troquei a categoria do meu perfil de 'criadora de conteúdo' pra consultoria. Parece pequeno, mas muda quem o Instagram me mostra."
+2. "Reescrevi minha bio com uma promessa só — não três coisas ao mesmo tempo."
+3. Espaço para atualizações futuras: decisões de gestão, bastidor de clientes (com autorização), rotina real
+- Capa do destaque: foto/print de bastidor real (sem produção)
+
+**Destaque 3 — "Diagnóstico" (substitui "Resultados" por enquanto)**
+Como ainda não há case de cliente publicável, este destaque documenta o diagnóstico do próprio perfil como prova de conceito do método — é exatamente o que o documento de origem propôs ("a leitura do próprio perfil é a aplicação prática do Nível 0/1 da esteira").
+1. "967 visualizações, 60% de gente nova — e zero seguidores novos. Por quê?"
+2. Print/resumo dos achados do diagnóstico (categoria errada, sem destaque, sem prova)
+3. "Vou documentar aqui o antes e depois de cada mudança"
+- Quando o primeiro case real de cliente existir, este destaque é renomeado para "Resultados" e passa a receber prints/depoimentos.
+
+**Destaque 4 — "Comece aqui"**
+Como o Checklist 7 Sinais (PDF gratuito) ainda não foi produzido, este destaque por enquanto direciona para o diagnóstico gratuito já anunciado na bio — não criar uma promessa de material que não existe.
+1. "Acha que seu Instagram só precisa de mais postagem? Geralmente não é isso."
+2. "Eu faço um diagnóstico gratuito e rápido do seu perfil — clica em 'Enviar mensagem' e me chama."
+- Sticker de "Enviar mensagem" fixado no story
+- **Dependência registrada:** produzir o Checklist 7 Sinais (Nível 0 da esteira) é pré-requisito para evoluir este destaque de "DM direto" para "funil automatizado".
+
+### Curadoria de quem o perfil segue e curte
+
+**Parar de seguir / parar de curtir (bolha de pares — design, social media, "dicas e templates"):**
+@deborapimenta..., @camilaahas, @feedautentico, @kellenbrian, @explica.ia, @aline ormarinato, @mktdica.ia, @brunalohaiine, @melantunees, @studioemi.design, @kellyvalerio.eventos, @amandadinizmkt, @simaramiguel, @laismaratch, @millenanbg, @monicagameirop, @plugcitarios, @hanahfranklin, @juliaapretti, @bianventurotti, @marthaleonardis, @itspaolamonte, @marianaguimar..., @descomplicand..., @anarocha, @studioanaclaranev..., @barbarafroesde..., @marimarquescb
+
+> Se algum desses perfis for referência de aprendizado real (ex.: @millenanbg já está em `docs/06-networking-perfis-conteudo.md` como referência de estudo), não precisa parar de acompanhar — mas **pare de curtir o conteúdo do tipo "dicas/templates/secrets"** especificamente. Curtida é o sinal mais forte que o algoritmo usa para decidir o que te mostrar e te recomendar.
+
+**Passar a seguir e interagir (sinal para o algoritmo de "para quem este perfil fala"):**
+Buscar e seguir 5–10 perfis por semana dentro das personas mapeadas em `docs/02-personas-publico-alvo.md` — advogados, clínicas/esteticistas, arquitetos e PMEs do Espírito Santo:
+- Buscar por hashtags locais: #advogadovitoria #esteticaes #arquiteturavitoria #empresariovix #pmevitoria
+- Seguir contas de organizações já mapeadas em `docs/06-networking-perfis-conteudo.md` (Sebrae ES, CDL Vitória, ACIS Serra) e, a partir delas, os perfis de empresários que comentam/interagem
+- Interagir de verdade: comentário relevante, não curtida vazia — isso aproxima o algoritmo do público certo mais rápido do que apenas seguir
+
 ---
 
 ## Fase 4 — Prova
