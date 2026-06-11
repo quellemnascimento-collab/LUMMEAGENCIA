@@ -74,15 +74,15 @@ Confirma-se e refina-se o diagnóstico anterior:
 
 ---
 
-## Fase 2 — Direção
+## Fase 2 — Direção (fechada)
 
-### Eixo proposto
+### Eixo
 
-O posicionamento já mapeado na análise de concorrência (Análise Qdigital, maio/2026) é o ponto de partida do eixo:
+O posicionamento já mapeado na análise de concorrência (Análise Qdigital, maio/2026) se mantém como base — o diagnóstico não invalidou o eixo, mostrou que ele **não está operando no perfil**:
 
 > **"A única parceira estratégica de crescimento que une visão de gestão corporativa, marketing com método e IA aplicada para PMEs que querem resultado mensurável sem improvisar."**
 
-Esse eixo só funciona se o perfil for a prova viva dele. Hoje, se o feed do @quellnodigital não comunica gestão + método + IA aplicada de forma visível nos primeiros segundos, o eixo está apenas escrito — não está em operação.
+A leitura da Camada 2 (zero conversão em seguidor apesar de alcance) confirma o ponto: o eixo está escrito em algum lugar (a bio até menciona posicionamento), mas nada no perfil — categoria, grade, destaques, audiência — sustenta essa promessa. Fechar a Fase 2 aqui significa: **o eixo não muda, a operação do perfil é que precisa mudar para refletir o eixo.**
 
 ### Dor central do público
 
@@ -94,22 +94,35 @@ Diferente da concorrência mapeada (Millena Nóbrega forma quem cria conteúdo; 
 
 > **Sistema de marketing com gestão por trás — não calendário de posts.**
 
-A promessa precisa aparecer em três lugares de forma idêntica: bio, primeiro destaque, e gancho dos primeiros posts da retomada.
+A promessa precisa aparecer de forma idêntica em três lugares: bio, primeiro destaque, e gancho dos primeiros posts da retomada.
 
-### Identidade visual — manter, ajustar ou redesenhar?
+### Identidade visual — decisão
 
-Decisão depende do diagnóstico (Fase 1), mas a referência é o que já está documentado em `docs/05-postura-imagem-linguagem.md`: paleta roxo/preto/branco/bege, ambientação de autoridade (estante, livros de marketing, ring light), tom refinado-estratégico-encorajador. Se o feed atual já segue essa linha, é ajuste de hierarquia (destacar prova e oferta). Se não segue, é redesenho de grade.
+O feed atual (2 selfies em vídeo, sem elemento de marca) **não segue** a linha documentada em `docs/05-postura-imagem-linguagem.md` (paleta roxo/preto/branco/bege, ambientação de autoridade, tom refinado-estratégico-encorajador) — porque praticamente não existe feed ainda. Decisão: **redesenho de grade desde o post 1**, aplicando essa referência. Não há nada para "ajustar", há uma base para construir.
 
 ---
 
-## Fase 3 — Construção (a executar após Fases 1 e 2 fechadas)
+## Ações imediatas — prioridade 0 (antes de qualquer post novo)
+
+A Camada 2 do diagnóstico mostrou que o gargalo é conversão, não alcance. Estas ações resolvem o gargalo sem depender de produzir conteúdo novo:
+
+1. **Trocar a categoria do perfil** de "Criador(a) de conteúdo digital" para uma categoria de negócio/consultoria (ex.: Consultoria de marketing, Agência de publicidade). Sem isso, o Instagram continua distribuindo o perfil na rede de criadores, não na de negócios.
+2. **Reescrever a bio** com a promessa única do eixo (ver estrutura-alvo na Fase 3) e ajustar o link para apontar a um destino específico de diagnóstico/agendamento — não a home institucional do site.
+3. **Criar os 4 destaques** definidos na Fase 3 — mesmo com pouco conteúdo, um destaque "Método" e um "Comece aqui" já dão ao visitante um motivo concreto para seguir.
+4. **Curadoria de quem o perfil segue e curte** — parar de seguir/curtir conteúdo do tipo "dicas/templates para social media e designers" (Canva secrets, "31 ideias para junho" etc.). Passar a seguir e interagir com perfis das personas-alvo (advogados, esteticistas, arquitetos — `docs/02-personas-publico-alvo.md`) para recalibrar o que o algoritmo associa ao perfil.
+
+> Essas quatro ações não exigem gravar nada novo e atacam diretamente o ponto onde o funil está travando hoje: visualização → seguidor.
+
+---
+
+## Fase 3 — Construção
 
 ### Bio — estrutura alvo
 
 ```
-[Nome] | Gestão + Marketing com método para PMEs
+Quellem | Gestão + Marketing com método para PMEs
 Você não precisa postar mais. Precisa de sistema.
-🔗 [Raio-X de Posicionamento / agendamento]
+🔗 Diagnóstico gratuito (Raio-X de Posicionamento) — link abaixo
 ```
 
 ### Destaques — reorganização
@@ -147,11 +160,12 @@ A leitura de posicionamento do próprio perfil é a aplicação prática do **N�
 
 ## Próximos passos
 
-1. Levantar dados reais do perfil (métricas, bio, destaques, grade atual) — preencher checklist da Fase 1
-2. Rodar o Diagnóstico (Fase 1) com base nesses dados
-3. Definir o eixo e a promessa final (Fase 2) — validar ou ajustar a proposta acima
-4. Reconstruir bio, destaques e calendário (Fase 3)
-5. Medir e documentar o antes/depois (Fase 4) como prova de conceito do Raio-X de Posicionamento
+1. ~~Levantar dados reais do perfil (métricas, bio, destaques, grade atual)~~ — feito (Fase 1)
+2. ~~Rodar o Diagnóstico (Fase 1)~~ — feito
+3. ~~Definir o eixo e a promessa final (Fase 2)~~ — feito (eixo mantido, validado pelo diagnóstico)
+4. Executar as **Ações imediatas — prioridade 0** (categoria, bio, destaques, curadoria de seguidos/curtidas)
+5. Reconstruir a grade desde o post 1 seguindo o roteiro da Fase 3
+6. Medir e documentar o antes/depois (Fase 4) — comparar visualizações, interações e novos seguidores antes/depois das ações de prioridade 0, separado do efeito da grade nova
 
 ---
 
